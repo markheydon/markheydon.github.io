@@ -28,7 +28,7 @@ The **Hosted Sites Billing App** is an internal Blazor application designed to m
 - **Error handling and logging** — integrated telemetry for troubleshooting.
 
 ## Live Site
-*As this was an internal app, there is no publically accessibly live site available.*
+*As this was an internal app, there is no publicly accessible live site available.*
 
 
 ---
