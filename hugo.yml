@@ -1,35 +1,102 @@
 baseURL: "https://markheydon.me.uk/"
-title: "Mark Heydon - About Me"
-pagerSize: 5
-theme: PaperMod
+languageCode: "en-gb"
+title: "Mark Heydon"
+enableRobotsTXT: true
 
+pagination:
+  pagerSize: 8
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+theme: "hugo-profile"
 params:
-  description: "Just another About Me profile type site about Mark Heydon."
+  description: "Microsoft 365 Consultant & Developer"
   author: "Mark Heydon"
+  favicon: "/favicon.ico"
 
-  profileMode:
-    enabled: true
-    buttons:
-    - name: Projects
-      url: projects
+  singlePages:
+    socialShare: false
 
-  socialIcons:
-    - name: github
-      url: "https://github.com/markheydon"
-    - name: linkedin
-      url: "https://linkedin.com/in/markheydon"
+  font:
+      fontSize: 1rem
+      fontWeight: 500
+      lineHeight: 1.5
 
-menu:
-  main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 40
+  color:
+    textColor: "#111827"            # Very dark grey for main text (better than pure black)
+    secondaryTextColor: "#4b5563"   # Medium grey for secondary text
+    backgroundColor: "#ffffff"      # White background
+    primaryColor: "#00bfa6"         # Teal accent (consistent with your brand)
+    secondaryColor: "#f3f4f6"       # Light grey for cards (soft contrast, not overwhelming)
+
+    darkmode:
+      textColor: "#ffffff"            # White for main text
+      secondaryTextColor: "#d1d5db"   # Light grey for secondary text
+      backgroundColor: "#121212"      # Deep charcoal
+      primaryColor: "#00bfa6"         # Teal accent (matches your main site)
+      secondaryColor: "#1f2937"       # Dark grey for cards (instead of orange)
+
+  hero:
+    enable: true
+    intro: "Welcome to my profile site!"
+    title: "Mark Heydon"
+    subtitle: "Microsoft 365 Consultant & Developer helping UK businesses automate and secure their workflows"
+    image: "/images/profile.png"
+    button:
+      enable: true
+      name: "View My Projects"
+      url: "/projects/"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: "https://github.com/markheydon"
+        - icon: fab fa-linkedin
+          url: "https://linkedin.com/in/markheydon"
+        - icon: fas fa-globe
+          url: "https://markheydon.co.uk"
+
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/profile.png"
+    content: |-
+      I help UK small businesses get the most out of Microsoft 365 by building secure, automated solutions.
+      
+      My work spans Business Apps (Power Apps, Dataverse, Dynamics), workflow automation with Power Automate, and robust security for Microsoft 365 environments.
+    skills:
+      enable: true
+      title: "Tools and platforms I use to help businesses streamline workflows and stay secure:"
+      items:
+        - "Microsoft 365 Admin"
+        - "Power Apps"
+        - "SharePoint Sites & Lists"
+        - "Power Automate"
+        - "RapidStart CRM"
+        - "Microsoft Defender"
+        - "Exchange EOP/ATP"
+        - "Dataverse"
+        - "Intune MDM/App Protection"
+        - "Dynamics 365"
+
+  contact:
+    enable: true
+    content: "Feel free to reach out for collaborations or inquiries."
+    email: "hello@markheydon.co.uk"
+    btnName: "Email Me"
+
+  projects:
+    enable: true
+    title: "Recent Projects"
+
+  footer:
+    # recentPosts: false
+    socialNetworks:
+      github: "https://github.com/markheydon"
+      linkedin: "https://linkedin.com/in/markheydon"
