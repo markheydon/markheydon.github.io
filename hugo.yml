@@ -1,0 +1,35 @@
+baseURL: "https://markheydon.me.uk/"
+title: "Mark Heydon - About Me"
+pagerSize: 5
+theme: PaperMod
+
+params:
+  description: "Just another About Me profile type site about Mark Heydon."
+  author: "Mark Heydon"
+
+  profileMode:
+    enabled: true
+    buttons:
+    - name: Projects
+      url: projects
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/markheydon"
+    - name: linkedin
+      url: "https://linkedin.com/in/markheydon"
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
