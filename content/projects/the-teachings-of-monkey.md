@@ -1,7 +1,19 @@
 ---
 title: "The Teachings of Monkey Site"
-date: 2025-12-10
-draft: false
+date: 2025-12-09
+weight: 101
+tags: ["Hugo", "GitHub", "GitHub Pages"]
+summary: "TV show fansite showing how AI and open source tools might be used in a fun, collaborative way."
+image: "/images/projects/the-teachings-of-monkey-site.png"
+badges:
+  - "Hugo"
+  - "GitHub"
+  - "GitHub Pages"
+links:
+  - icon: fas fa-link
+    url: https://monkeywisdom.online
+  - icon: fab fa-github
+    url: https://github.com/markheydon/the-teachings-of-monkey
 ---
 
 ## Overview
