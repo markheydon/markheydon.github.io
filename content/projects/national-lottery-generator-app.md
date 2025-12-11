@@ -3,6 +3,7 @@ title: "National Lottery Generator App"
 date: 2023-05-06
 tags: ["Laravel", "PHP", "Docker"]
 summary: "A personal project that generates UK lottery numbers for fun, built with Laravel."
+description: "A personal project that generates UK lottery numbers for fun, built with Laravel."
 image: "/images/projects/national-lottery-generator-app.png"
 badges:
   - "Laravel"
