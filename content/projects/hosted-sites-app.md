@@ -1,7 +1,6 @@
 ---
 title: "Hosted Sites Billing App"
 date: 2025-12-03
-weight: 102
 tags: ["Blazor", "Dataverse"]
 summary: "Domain model and billing integration for hosted WordPress sites."
 image: "/images/projects/hosted-sites-billing-app.png"
