@@ -1,7 +1,6 @@
 ---
 title: "The Teachings of Monkey Site"
 date: 2025-12-09
-weight: 101
 tags: ["Hugo", "GitHub", "GitHub Pages"]
 summary: "TV show fansite showing how AI and open source tools might be used in a fun, collaborative way."
 image: "/images/projects/the-teachings-of-monkey-site.png"

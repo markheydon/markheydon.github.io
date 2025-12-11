@@ -1,8 +1,6 @@
-
 ---
 title: "Microsoft 365 Care Plans"
 date: 2025-11-01
-weight: 301
 tags: ["Microsoft 365", "Consulting"]
 summary: "Tiered support offering for small businesses with Microsoft 365 Business tenants."
 image: "/images/projects/mhcg-m365-care-plans.png"
