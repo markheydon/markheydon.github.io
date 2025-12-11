@@ -1,6 +1,6 @@
 baseURL: "https://markheydon.me.uk/"
 languageCode: "en-gb"
-title: "Mark Heydon"
+title: "Mark Heydon - Microsoft 365 Consultant & Developer"
 enableRobotsTXT: true
 
 pagination:
@@ -17,7 +17,7 @@ outputs:
 
 theme: "hugo-profile"
 params:
-  description: "Microsoft 365 Consultant & Developer"
+  description: "Helping UK businesses streamline workflows and strengthen security with Microsoft 365 solutions."
   author: "Mark Heydon"
   favicon: "/favicon.ico"
 
@@ -47,7 +47,7 @@ params:
     enable: true
     intro: "Welcome to my profile site!"
     title: "Mark Heydon"
-    subtitle: "Microsoft 365 Consultant & Developer helping UK businesses automate and secure their workflows"
+    subtitle: "Microsoft 365 Consultant & Developer"
     image: "/images/profile.png"
     button:
       enable: true
