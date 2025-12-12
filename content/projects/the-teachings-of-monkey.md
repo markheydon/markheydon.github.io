@@ -7,8 +7,8 @@ description: "TV show fansite showing how AI and open source tools might be used
 image: "/images/projects/the-teachings-of-monkey-site.png"
 badges:
   - "Hugo"
-  - "GitHub"
   - "GitHub Pages"
+  - "AI"
 links:
   - icon: fas fa-link
     url: https://monkeywisdom.online

@@ -6,6 +6,7 @@ summary: "Domain model and billing integration for hosted WordPress sites."
 description: "Domain model and billing integration for hosted WordPress sites."
 image: "/images/projects/hosted-sites-billing-app.png"
 badges:
+  - "C#"
   - "Dataverse"
   - "Blazor"
 ---
@@ -29,7 +30,6 @@ The **Hosted Sites Billing App** is an internal Blazor application designed to m
 
 ## Live Site
 *As this was an internal app, there is no publicly accessible live site available.*
-
 
 ---
 

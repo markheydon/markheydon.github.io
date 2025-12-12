@@ -6,12 +6,14 @@ summary: "A personal project that generates UK lottery numbers for fun, built wi
 description: "A personal project that generates UK lottery numbers for fun, built with Laravel."
 image: "/images/projects/national-lottery-generator-app.png"
 badges:
-  - "Laravel"
   - "PHP"
+  - "Laravel"
   - "Docker"
 links:
   - icon: fas fa-link
-    url: https://markheydon.co.uk/projects/national-lottery-generator
+    url: https://mheydon73-lottery-generator.azurewebsites.net
+  - icon: fab fa-github
+    url: https://github.com/markheydon/national-lottery-generator
 ---
 
 ## Overview
@@ -30,6 +32,9 @@ links:
 - **Seedable randomness** — deterministic outputs for testing.
 - **Caching without DB** — uses Laravel’s file cache and local storage for CSV snapshots.
 - **Simple UI** — minimal, responsive interface for quick number generation.
+
+## Live Site
+👉 [Lottery Generator App](https://mheydon73-lottery-generator.azurewebsites.net/)
 
 ## Repository
 👉 [GitHub Repo](https://github.com/markheydon/national-lottery-generator)
