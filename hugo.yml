@@ -15,14 +15,25 @@ outputs:
     - "HTML"
     - "RSS"
 
+menus:
+  main:
+    - identifier: blog
+      name: "Blog"
+      url: "/blog/"
+      weight: 1
+
 theme: "hugo-profile"
 params:
   description: "Helping UK businesses streamline workflows and strengthen security with Microsoft 365 solutions."
   author: "Mark Heydon"
   favicon: "/favicon.ico"
 
+  animate: true
+
   singlePages:
     socialShare: false
+    scrollProgress:
+      enable: true
 
   font:
       fontSize: 1rem
@@ -96,7 +107,11 @@ params:
     title: "Recent Projects"
 
   footer:
-    # recentPosts: false
+    recentPosts:
+      enable: true
+      title: "Recent Posts"
+      count: 3
+      path: "blog"
     socialNetworks:
       github: "https://github.com/markheydon"
       linkedin: "https://linkedin.com/in/markheydon"

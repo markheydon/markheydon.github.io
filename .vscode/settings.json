@@ -7,5 +7,7 @@
             "path": "[[workspace]]/content"
         }
     ],
-    "frontMatter.git.enabled": true
+    "frontMatter.git.enabled": true,
+    "[markdown]": {
+    }
 }
