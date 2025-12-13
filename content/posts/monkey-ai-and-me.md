@@ -8,18 +8,36 @@ tags:
   - AI
 ---
 
-## **A Blast from the Past**
+## How an 80s Classic Inspired an IT Professional’s AI Weekend Project
 
-Prompted by the recent addition of *Monkey* on Pluto TV (sometime around late 2025), I was reminded just how utterly awesome I thought the show was as an 80s kid. Of course, the chances of me having much of a clue what was actually going on at the tender age of 8 or 9 were next to zero. But like most kids at the time, the colours, the fighting, and the general madness drew me in. And clearly, as here I am some 40-odd years later still talking about it, in I stayed!
+Sometimes, the best projects start with a spark of curiosity. For me, *The Teachings of Monkey* was exactly that — a quirky idea born from a mix of childhood nostalgia and a desire to experiment with AI in a way that felt genuinely fun. As an IT Professional, I’m always looking for ways to blend technology with creativity, and this weekend project was the perfect playground.
 
-## **Hidden Wisdom in the Chaos**
+## Why Monkey?
 
-What struck me this time around is that underneath all the camp, chaotic nonsense, there’s actually some genuinely enlightened stuff in there. Wouldn’t it be great if somewhere out there, people were following the teachings of *Monkey* as they go about their daily lives? (Monkey the show, not Monkey himself—though to be fair, he does drop the occasional nugget of wisdom.)
+The inspiration hit when I spotted *Monkey* on Pluto TV late in 2025. As an 80s kid, I was glued to the screen by the colours, the fighting, and the sheer madness of it all. Back then, I barely understood what was going on, but the show stuck with me, so much so that, forty-odd years later, I’m still talking about it.
 
-## **The Birth of a Weekend Project**
+Beneath all the camp and chaos, there’s real wisdom in those stories. Wouldn’t it be great if people actually followed the teachings of Monkey in their daily lives? That thought led to a classic weekend project, just for the fun of it.
 
-So, just like The Stone Monkey born from an egg on a mountain top, a weekend project was born: **The Teachings of Monkey Website**. And just like Monkey, the nature of it might just be irrepressible!
+## Building the Site: AI as My Sidekick
 
----
+I wanted the site to be simple: bite-sized teachings, playful quotes, and a dash of philosophy. Nothing heavy, a bit of fun, and something to make people smile and think.
 
-👉 [View the project details here](/projects/the-teachings-of-monkey/)
+Sidekick is maybe understating it a bit, as truthfully, AI has done nearly **all** the content. My main input was crafting relevant prompts and throwing them at the GitHub Copilot Coding Agent.
+
+But it wasn’t all smooth sailing. Some AI-generated quotes were too generic, and I spent a fair bit of time curating and tweaking prompts to get the right feel. AI is fast, but it’s not magic — you still need a human touch to shape the voice and vibe.
+
+## What’s Live Now
+
+The site is up and running, and I’ll keep adding new teachings as inspiration strikes.
+
+You can access the live version here: [monkeywisdom.online](https://monkeywisdom.online).
+
+And if you're curious, you can check out the project details and at: [markheydon.me.uk/projects/the-teachings-of-monkey](/projects/the-teachings-of-monkey/)
+
+## Lessons Learned
+
+As an IT Professional, I’m always looking for ways to streamline my work. AI turned out to be a great collaborator and content creator, accelerating the boring bits so I could focus on the fun (by which I of course mean technical) parts. But it’s not a replacement for real creativity. The best results came from blending AI speed with my own curation and personality.
+
+## Final Thoughts
+
+If you’ve got a playful idea, AI can help you bring it to life faster than you think — just don’t skip the human touch. For me, *The Teachings of Monkey* was a blast from the past, a chance to experiment, and a reminder that sometimes, the most memorable projects are the ones you do just for the joy of it.
