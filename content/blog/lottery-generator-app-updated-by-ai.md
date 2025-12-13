@@ -14,7 +14,7 @@ Every developer has at least one (probably more) project they built years ago an
 
 ## Why Revisit It?
 
-Part nostalgia, but mainly as it was woefully outdated version and security issues wise. And with my newfound skills over the past couple of months working with AI (Copilot to be exact), I thought it could help me get the thing brought up to date with latest version without me having to go do a load of manual work checking latest version compatibility, updating dependencies, etc. etc.
+Part nostalgia, but mainly because it was woefully outdated in terms of version and security issues. And with my newfound skills over the past couple of months working with AI (Copilot to be exact), I thought it could help me get the thing brought up to date with latest version without me having to go do a load of manual work checking latest version compatibility, updating dependencies, etc. etc.
 
 ## AI in Action
 
