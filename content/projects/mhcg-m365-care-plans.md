@@ -14,15 +14,18 @@ links:
 ---
 
 ## Overview
+
 **Microsoft 365 Care Plans** are tiered, business-friendly support packages for small organisations running **Microsoft 365 Business**. They combine secure configuration, proactive maintenance, and practical guidance to help owners and teams stay productive and protected—without the overhead of enterprise tooling. You get repeatable standards, clear scope, and outcomes that align with how small businesses actually work.
 
 ## Tiers at a Glance
+
 - **Essentials** — Core tenant hygiene and security best‑practice for organisations that don’t need device management.
   - Secure sign‑in (MFA/Conditional Access baselines), mailbox safety, Defender policies for email and collaboration, SharePoint/OneDrive configuration, sensible defaults in Microsoft 365 Admin Center, and lifecycle checks.
 - **Premium** — Everything in Essentials **plus** device management with **Intune** (Microsoft 365 Business Premium).
   - Managed Windows devices, compliance policies, endpoint protection, app deployment, update rings, and device onboarding workflows.
 
 ## What’s Included
+
 - **Security posture**
   - MFA + Conditional Access baselines (right‑sized for small businesses)
   - Defender for Business/Defender policies for Exchange Online, SharePoint, and OneDrive
@@ -45,6 +48,7 @@ links:
   - Clear, actionable next steps for improvements
 
 ## Technologies Used
+
 - **Microsoft 365 Admin Center** — tenant configuration and policy management
 - **Exchange Online / SharePoint / OneDrive / Teams** — secure collaboration foundations
 - **Microsoft Defender for Business** — endpoint and email protection
@@ -52,13 +56,14 @@ links:
 - **Intune (Premium tier)** — device compliance, configuration, and app management
 
 ## Key Outcomes
+
 - A **secure-by-default** tenant with small-business‑appropriate controls  
 - **Reduced friction** for users through sensible, documented standards  
 - **Confidence and clarity** for owners: what’s set, what’s monitored, what’s next  
 - **Repeatable onboarding/offboarding** and device lifecycle (Premium)
 
 ## Live Page
+
 👉 [Care Plans for Microsoft 365 Business](https://markheydon.co.uk/care-plans/)
 
 ---
-
