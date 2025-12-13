@@ -32,7 +32,7 @@ The site is up and running, and I’ll keep adding new teachings as inspiration 
 
 You can access the live version here: [monkeywisdom.online](https://monkeywisdom.online).
 
-And if you're curious, you can check out the project details and at: [markheydon.me.uk/projects/the-teachings-of-monkey](/projects/the-teachings-of-monkey/)
+And if you're curious, you can check out the project details at: [markheydon.me.uk/projects/the-teachings-of-monkey](/projects/the-teachings-of-monkey/)
 
 ## Lessons Learned
 
