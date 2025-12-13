@@ -19,7 +19,7 @@ menus:
   main:
     - identifier: blog
       name: "Blog"
-      url: "/posts/"
+      url: "/blog/"
       weight: 1
 
 theme: "hugo-profile"
@@ -104,14 +104,14 @@ params:
 
   projects:
     enable: true
-    title: "Recent Projects"
+    title: "My Projects"
 
   footer:
     recentPosts:
       enable: true
       title: "Recent Posts"
       count: 3
-      path: "posts"
+      path: "blog"
     socialNetworks:
       github: "https://github.com/markheydon"
       linkedin: "https://linkedin.com/in/markheydon"
