@@ -2,6 +2,7 @@
 title: "Monkey, AI, and Me: A Retro-Inspired Weekend Project"
 description: "Monkey Madness Meets Modern Tech: How an 80s Classic Sparked an AI Weekend Project."
 summary: "Monkey Madness Meets Modern Tech: How an 80s Classic Sparked an AI Weekend Project."
+image: "/images/projects/the-teachings-of-monkey-site.png"
 date: 2025-12-08
 tags:
   - Personal Projects

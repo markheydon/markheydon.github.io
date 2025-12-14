@@ -2,6 +2,7 @@
 title: "Breathing New Life into my Lottery Generator with AI"
 description: "Revamping my old Lottery Generator app with AI—modernising the code, automating tests, and handling the boring bits while I focus on what matters."
 summary: "Revamping my old Lottery Generator app with AI—modernising the code, automating tests, and handling the boring bits while I focus on what matters."
+image: "/images/projects/national-lottery-generator-app.png"
 date: 2025-12-15
 tags:
   - Personal Projects
