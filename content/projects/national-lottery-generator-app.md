@@ -38,7 +38,7 @@ links:
 
 ## Live Site
 
-👉 [Lottery Generator App](https://mheydon73-lottery-generator.azurewebsites.net/)
+👉 [Lottery Generator App](https://lottery.markheydon.me.uk/)
 
 ## Repository
 
@@ -47,3 +47,4 @@ links:
 ---
 
 This project demonstrates practical Laravel development, containerization for local workflows, and thoughtful refactoring to reduce costs and complexity. It’s a good example of evolving a legacy app into a modern, maintainable solution.
+
