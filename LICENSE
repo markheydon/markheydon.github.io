@@ -1,6 +1,6 @@
 # Licenses
 
-You are free to use and modify the site’s configuration and theme customisations under the MIT Licence. However, all written content, images, and personal information are copyrighted to Mark Heydon and licensed under CC BY-NC-ND 4.0, meaning you may share them as-is for non-commercial purposes with attribution, but you cannot modify or use them commercially.
+You are free to use and modify the site's configuration and theme customisations under the MIT Licence. However, all written content, images, and personal information are copyrighted to Mark Heydon and licensed under CC BY-NC-ND 4.0, meaning you may share them as-is for non-commercial purposes with attribution, but you cannot modify or use them commercially.
 
 - [Content Licence](#content-licence)
 - [Site Configuration Licence](#site-configuration-licence)
@@ -12,13 +12,15 @@ You are free to use and modify the site’s configuration and theme customisatio
 All written content, images, and personal information in this repository are © Mark Heydon and licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).
 
 You may:
+
 - Share the content as-is for non-commercial purposes with attribution.
 
 You may NOT:
+
 - Modify, remix, or create derivative works.
 - Use the content for commercial purposes.
 
-Full licence text: https://creativecommons.org/licenses/by-nc-nd/4.0/
+Full licence text: [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 ---
 
@@ -45,4 +47,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-

@@ -11,7 +11,7 @@ tags:
 
 ## Intro
 
-Every developer has at least one (probably more) project they built years ago and quietly left behind. For me, it was a simple Lottery Generator I made one weekend several years ago now. For two reasons as I remember, firstly, as I can never be bothered to pick random numbers on the odd occasion I buy a lottery ticket, and it was an excuse to give Laravel a go as historically I’d used the Zend Framework but heard good things about Laravel.
+Every developer has at least one (probably more) project they built years ago and quietly left behind. For me, it was a simple Lottery Generator I made one weekend several years ago now. For two reasons as I remember, firstly, as I can never be bothered to pick random numbers on the odd occasion I buy a lottery ticket, and it was an excuse to give Laravel a go as historically I'd used the Zend Framework but heard good things about Laravel.
 
 ## Why Revisit It?
 
@@ -27,7 +27,7 @@ I leaned on GitHub Copilot for a couple of things:
 
 ## Project Details
 
-If you’re curious, you can check out the project details at: <https://markheydon.me.uk/projects/national-lottery-generator-app/>
+If you're curious, you can check out the project's technical details at: [markheydon.me.uk/projects/national-lottery-generator-app](/projects/national-lottery-generator-app).
 
 ## Lessons Learned
 
@@ -35,4 +35,4 @@ AI is great for grunt work like tests, boilerplate, and even suggesting optimisa
 
 ## Final Thoughts
 
-AI *(as things stand now at least)* won’t replace your brain but can help especially with repetitive (and boring?) areas of your work you really can’t motivate yourself to be doing.
+AI *(as things stand now at least)* won't replace your brain but can help especially with repetitive (and boring?) areas of your work you really can't motivate yourself to be doing.
