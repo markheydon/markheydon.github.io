@@ -18,7 +18,7 @@ links:
 
 ## Overview
 
-**National Lottery Generator** is a personal project designed to generate UK lottery numbers for entertainment purposes. Originally built as a Laravel app, it’s now being modernized to remove unnecessary dependencies, simplify caching, and adopt containerized local development for easier maintenance.
+**National Lottery Generator** is a personal project designed to generate UK lottery numbers for entertainment purposes. Originally built as a Laravel app, it's now being modernized to remove unnecessary dependencies, simplify caching, and adopt containerized local development for easier maintenance.
 
 ## Technologies Used
 
@@ -33,7 +33,7 @@ links:
 - **Lottery modes** — supports UK Lotto, EuroMillions, and Thunderball.
 - **Configurable generation** — unique number sets, optional bonus draws.
 - **Seedable randomness** — deterministic outputs for testing.
-- **Caching without DB** — uses Laravel’s file cache and local storage for CSV snapshots.
+- **Caching without DB** — uses Laravel's file cache and local storage for CSV snapshots.
 - **Simple UI** — minimal, responsive interface for quick number generation.
 
 ## Live Site
@@ -46,5 +46,4 @@ links:
 
 ---
 
-This project demonstrates practical Laravel development, containerization for local workflows, and thoughtful refactoring to reduce costs and complexity. It’s a good example of evolving a legacy app into a modern, maintainable solution.
-
+This project demonstrates practical Laravel development, containerization for local workflows, and thoughtful refactoring to reduce costs and complexity. It's a good example of evolving a legacy app into a modern, maintainable solution.
