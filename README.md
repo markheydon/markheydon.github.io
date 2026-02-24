@@ -19,5 +19,6 @@ To run Hugo locally for development and testing:
 
 ## License
 
-- **Code and configuration**: [MIT LicenseContent (text, images)**: © Mark Heydon, licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/u can freely use and modify the Hugo configuration and theme tweaks.
-- You cannot copy, modify, or reuse my personal content without permission.
+- **Code and configuration**: [MIT License](LICENSE.md).
+- **Content (text, images)**: © Mark Heydon, licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+- **Personal content**: You may not copy, modify, or reuse personal content without permission.
