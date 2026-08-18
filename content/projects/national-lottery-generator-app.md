@@ -1,40 +1,41 @@
 ---
 title: "National Lottery Generator App"
-date: 2023-05-06
-tags: ["Laravel", "PHP", "Docker"]
-summary: "A personal project that generates UK lottery numbers for fun, built with Laravel."
-description: "A personal project that generates UK lottery numbers for fun, built with Laravel."
+date: 2026-08-06
+tags: ["PHP", "Docker"]
+summary: "A personal project that generates UK lottery numbers for fun — now a small vanilla PHP app, no Laravel required."
+description: "A personal project that generates UK lottery numbers for fun — now a small vanilla PHP app, no Laravel required."
 image: "/images/projects/national-lottery-generator-app.png"
 badges:
   - "PHP"
-  - "Laravel"
-  - "Docker"
+  - "PHPUnit"
+  - "Playwright"
 links:
   - icon: fas fa-link
-    url: https://mheydon73-lottery-generator.azurewebsites.net
+    url: https://lottery.markheydon.me.uk/
   - icon: fab fa-github
     url: https://github.com/markheydon/national-lottery-generator
 ---
 
 ## Overview
 
-**National Lottery Generator** is a personal project designed to generate UK lottery numbers for entertainment purposes. Originally built as a Laravel app, it's now being modernized to remove unnecessary dependencies, simplify caching, and adopt containerized local development for easier maintenance.
+**National Lottery Generator** is a personal project that suggests UK lottery numbers for entertainment. It started years ago as an excuse to try Laravel. In August 2026 I stripped that away and rebuilt it as a small vanilla PHP 8.3–8.5 app: file-based CSV caching, plain PHP templates, and a PHP built-in server for local work.
+
+The generator still does not predict anything. It looks at historical draws, applies a half-arsed bit of logic, and prints some lines. That was always the joke. What changed is the cost of keeping it alive — fewer dependencies, no database, tests that actually run in CI.
 
 ## Technologies Used
 
-- **Laravel** — PHP framework for clean routing and service organization.
-- **PHP** — core language powering the app logic.
-- **Docker / Laravel Sail** — reproducible local development environment.
-- **Composer** — dependency management for PHP packages.
-- **Blade Templates** — lightweight UI rendering.
+- **PHP 8.3–8.5** — application code with no framework.
+- **Composer** — autoloading and a small set of dev tools (PHPUnit, Pint, PHPMD).
+- **PHPUnit** — unit and feature tests, including Set For Life coverage.
+- **Playwright** — UI tests in their own GitHub Actions workflow.
+- **Azure App Service** — production hosting with `public/` as the web root.
 
 ## Key Features
 
-- **Lottery modes** — supports UK Lotto, EuroMillions, and Thunderball.
-- **Configurable generation** — unique number sets, optional bonus draws.
-- **Seedable randomness** — deterministic outputs for testing.
-- **Caching without DB** — uses Laravel's file cache and local storage for CSV snapshots.
-- **Simple UI** — minimal, responsive interface for quick number generation.
+- **Lottery modes** — UK Lotto, EuroMillions, Thunderball, Set For Life, Lotto Hotpicks, and EuroMillions Hotpicks.
+- **Historical draw cache** — CSV snapshots on the local filesystem, no database.
+- **Simple UI** — pick a game, generate lines, switch games from the menu.
+- **Entertainment only** — past results do not predict future draws.
 
 ## Live Site
 
@@ -46,4 +47,4 @@ links:
 
 ---
 
-This project demonstrates practical Laravel development, containerization for local workflows, and thoughtful refactoring to reduce costs and complexity. It's a good example of evolving a legacy app into a modern, maintainable solution.
+A hobby app that finally matches its size: PHP, files, tests, and a live site. The Laravel version taught me a framework. The current one is easier to keep.
