@@ -16,7 +16,8 @@
       "extensions": [
         "budparr.language-hugo-vscode",
         "eliostruyf.vscode-front-matter",
-        "davidanson.vscode-markdownlint"
+        "davidanson.vscode-markdownlint",
+        "streetsidesoftware.code-spell-checker"
       ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash"
