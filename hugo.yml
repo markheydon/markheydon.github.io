@@ -3,6 +3,10 @@ locale: "en-GB"
 title: "Mark Heydon - Software Engineer"
 enableRobotsTXT: true
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 pagination:
   pagerSize: 8
 
