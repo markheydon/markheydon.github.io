@@ -2,9 +2,23 @@
 
 My About Me Profile pages stuff.
 
-## Viewing Locally
+## Viewing locally
 
-### Option A: Docker/Podman (no local Hugo install required)
+### Dev Container / GitHub Codespaces
+
+Open the repo in a Dev Container or Codespace. Hugo Extended is already installed via [`.devcontainer/devcontainer.json`](.devcontainer/devcontainer.json).
+
+From the project root:
+
+```bash
+hugo server
+```
+
+Open the forwarded URL for port 1313 (typically `http://localhost:1313`). Content changes rebuild automatically.
+
+For a static preview of the production build, use `./scripts/invoke-hugo-site.sh preview` (serves on port 8080).
+
+### Docker/Podman (no local Hugo install)
 
 ```bash
 ./scripts/invoke-hugo-site.sh serve
@@ -12,22 +26,23 @@ My About Me Profile pages stuff.
 
 Runs a containerized Hugo dev server at `http://localhost:1313`. Also supports `build` (production-parity build to `public/`) and `preview` (build + serve the static output via nginx). Run with `--help` for all options.
 
-### Option B: Local Hugo install
+### Local Hugo install
 
-1. Ensure Hugo Extended is installed and available on your PATH, along with Go (required for Hugo Modules to resolve the theme).
-2. Navigate to the project directory.
-3. Start the local development server:
+For development outside a Dev Container or Codespace:
+
+1. Install [Hugo Extended](https://gohugo.io/installation/) and ensure it is on your PATH.
+2. From the project directory, start the development server:
 
     ```bash
     hugo server
     ```
 
-4. Open your browser to the URL displayed (typically `http://localhost:1313`).
-5. Changes to content files will automatically rebuild and refresh in the browser.
+3. Open your browser to the URL displayed (typically `http://localhost:1313`).
+4. Changes to content files will automatically rebuild and refresh in the browser.
 
 ## Theme
 
-The site pulls in the [hugo-profile](https://github.com/gurusabarish/hugo-profile) theme as a [Hugo Module](https://gohugo.io/hugo-modules/), declared under `module.imports` in [hugo.yml](hugo.yml) and pinned via [go.mod](go.mod)/[go.sum](go.sum) — there's no `themes/` folder or git submodule. Hugo resolves and caches the module automatically at build time (Go must be available, which the containerized `hugomods/hugo` image and the devcontainer's Go feature both provide).
+The site pulls in the [hugo-profile](https://github.com/gurusabarish/hugo-profile) theme as a [Hugo Module](https://gohugo.io/hugo-modules/), declared under `module.imports` in [hugo.yml](hugo.yml) and pinned via [go.mod](go.mod)/[go.sum](go.sum) — there's no `themes/` folder or git submodule. Hugo resolves and caches the module automatically at build time.
 
 To bump to a newer theme commit/release:
 
