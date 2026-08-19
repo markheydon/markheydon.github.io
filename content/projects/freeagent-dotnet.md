@@ -1,7 +1,7 @@
 ---
 title: "FreeAgent .NET Client"
 date: 2026-01-15
-tags: [".NET", "API", "FreeAgent"]
+tags: [".NET", "C#", "FreeAgent"]
 summary: "An open-source .NET client for the FreeAgent API with OAuth 2.0, retries, and pagination."
 description: "An open-source .NET client for the FreeAgent API with OAuth 2.0, retries, and pagination."
 image: "/images/projects/freeagent-dotnet.png"

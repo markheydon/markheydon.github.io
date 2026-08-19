@@ -1,7 +1,7 @@
 ---
 title: "Monolog WP-CLI Handler"
 date: 2026-08-14
-tags: ["PHP", "WordPress", "WP-CLI"]
+tags: ["PHP", "WordPress"]
 summary: "A Monolog handler that routes log output through WP-CLI — upgraded to Monolog 3 this year."
 description: "A Monolog handler that routes log output through WP-CLI — upgraded to Monolog 3 this year."
 image: "/images/projects/monolog-wp-cli.png"

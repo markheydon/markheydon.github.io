@@ -1,14 +1,13 @@
 ---
 title: "Occasional Use Azure Virtual Desktop (AVD) Bicep"
 date: 2026-02-21
-tags: ["Azure", "Bicep", "IaC"]
+tags: ["Azure", "Bicep"]
 summary: "A Bicep-driven Azure Virtual Desktop deployment designed for quick, occasional use."
 description: "A Bicep-driven Azure Virtual Desktop deployment designed for quick, occasional use."
 image: "/images/projects/avd-occasional-bicep.png"
 badges:
   - "Azure"
   - "Bicep"
-  - "IaC"
 links:
   - icon: fas fa-link
     url: https://markheydon.me.uk/avd-occasional/

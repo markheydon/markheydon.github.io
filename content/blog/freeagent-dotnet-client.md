@@ -5,8 +5,9 @@ summary: "Starting an open-source FreeAgent API library with token refresh, retr
 image: "/images/projects/freeagent-dotnet.png"
 date: 2026-01-15
 tags:
-  - Personal Projects
   - .NET
+  - C#
+  - FreeAgent
 ---
 
 ## The same plumbing, again

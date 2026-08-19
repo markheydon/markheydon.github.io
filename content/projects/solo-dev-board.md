@@ -1,7 +1,7 @@
 ---
 title: "SoloDevBoard"
 date: 2026-08-17
-tags: ["Blazor", ".NET", "GitHub"]
+tags: [".NET", "Aspire", "Blazor", "C#", "GitHub"]
 summary: "A single pane of glass for solo developers managing GitHub work across many repositories."
 description: "A single pane of glass for solo developers managing GitHub work across many repositories."
 image: "/images/projects/solo-dev-board.png"

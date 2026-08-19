@@ -5,8 +5,9 @@ summary: "Revamping my old Lottery Generator app with AI—modernising the code,
 image: "/images/projects/national-lottery-generator-app.png"
 date: 2025-12-15
 tags:
-  - Personal Projects
   - AI
+  - Laravel
+  - PHP
 ---
 
 ## Intro

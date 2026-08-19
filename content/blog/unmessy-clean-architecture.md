@@ -5,8 +5,8 @@ summary: "After a long stretch away from product code, I needed a Clean Architec
 image: "/images/projects/unmessy-clean-example.png"
 date: 2025-11-30
 tags:
-  - Personal Projects
   - .NET
+  - C#
 ---
 
 ## Getting back up to date

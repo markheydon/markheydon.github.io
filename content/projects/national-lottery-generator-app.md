@@ -1,7 +1,7 @@
 ---
 title: "National Lottery Generator App"
 date: 2026-08-06
-tags: ["PHP", "Docker"]
+tags: ["Docker", "PHP"]
 summary: "A personal project that generates UK lottery numbers for fun — now a small vanilla PHP app, no Laravel required."
 description: "A personal project that generates UK lottery numbers for fun — now a small vanilla PHP app, no Laravel required."
 image: "/images/projects/national-lottery-generator-app.png"

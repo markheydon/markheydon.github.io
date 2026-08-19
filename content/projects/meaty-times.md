@@ -1,7 +1,7 @@
 ---
 title: "MeatyTimes"
 date: 2026-07-02
-tags: ["Blazor", ".NET", "Aspire"]
+tags: [".NET", "Aspire", "Blazor", "C#"]
 summary: "A roast calculator that turns meat type, weight, and doneness into cooking times and a serve-at schedule."
 description: "A roast calculator that turns meat type, weight, and doneness into cooking times and a serve-at schedule."
 image: "/images/projects/meaty-times.png"

@@ -5,9 +5,11 @@ summary: "A Blazor app for importing a spreadsheet into Microsoft Planner throug
 image: "/images/projects/import-to-planner.png"
 date: 2026-04-10
 tags:
-  - Personal Projects
   - .NET
+  - Blazor
+  - C#
   - Microsoft 365
+  - Microsoft Graph
 ---
 
 ## The spreadsheet is never the plan

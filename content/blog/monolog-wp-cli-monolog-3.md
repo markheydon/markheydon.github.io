@@ -5,8 +5,8 @@ summary: "The old Packagist package got a Monolog 3 line, a PHP 8.1 floor, and d
 image: "/images/projects/monolog-wp-cli.png"
 date: 2026-07-13
 tags:
-  - Personal Projects
   - PHP
+  - WordPress
 ---
 
 ## An old package, still in use

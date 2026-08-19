@@ -1,7 +1,7 @@
 ---
 title: "Import To Planner"
 date: 2026-04-10
-tags: ["Blazor", "Microsoft 365", "Microsoft Graph"]
+tags: ["Blazor", "C#", "Microsoft 365", "Microsoft Graph"]
 summary: "A guided CSV-to-Microsoft Planner import, with validation, preview, and an explicit confirm step."
 description: "A guided CSV-to-Microsoft Planner import, with validation, preview, and an explicit confirm step."
 image: "/images/projects/import-to-planner.png"

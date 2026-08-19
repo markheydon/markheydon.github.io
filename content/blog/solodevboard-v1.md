@@ -5,8 +5,11 @@ summary: "Shipping the Blazor app I built to stop living in a dozen GitHub tabs 
 image: "/images/projects/solo-dev-board.png"
 date: 2026-08-17
 tags:
-  - Personal Projects
   - .NET
+  - Aspire
+  - Blazor
+  - C#
+  - GitHub
 ---
 
 ## The operating model came first

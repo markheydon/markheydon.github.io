@@ -7,7 +7,6 @@ image: "/images/projects/avd-occasional-bicep.png"
 tags:
   - Azure
   - Bicep
-  - IaC
 ---
 
 ## A Personal Desktop with AVD

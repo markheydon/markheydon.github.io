@@ -1,6 +1,6 @@
 baseURL: "https://markheydon.me.uk/"
 locale: "en-GB"
-title: "Mark Heydon - Microsoft 365 Consultant & Developer"
+title: "Mark Heydon - Software Engineer"
 enableRobotsTXT: true
 
 pagination:
@@ -26,7 +26,7 @@ module:
   imports:
     - path: github.com/gurusabarish/hugo-profile
 params:
-  description: "Helping UK businesses streamline workflows and strengthen security with Microsoft 365 solutions."
+  description: "Software engineer building and maintaining open-source tools for Microsoft 365 and small-business workflows. C#, .NET, Blazor, PHP, and Azure."
   author: "Mark Heydon"
   favicon: "/favicon.ico"
 
@@ -60,7 +60,7 @@ params:
     enable: true
     intro: "Welcome to my profile site!"
     title: "Mark Heydon"
-    subtitle: "Microsoft 365 Consultant & Developer"
+    subtitle: "C#/.NET developer. Open-source tools for Microsoft 365 and small-business workflows."
     image: "/images/profile.png"
     button:
       enable: true
@@ -80,27 +80,29 @@ params:
     title: "About Me"
     image: "/images/profile.png"
     content: |-
-      I help UK small businesses get the most out of Microsoft 365 by building secure, automated solutions.
-      
-      My work spans Business Apps (Power Apps, Dataverse, Dynamics), workflow automation with Power Automate, and robust security for Microsoft 365 environments.
+      I'm a software engineer with a BSc in Software Engineering from the Open University and decades of professional development experience.
+
+      A significant part of my work is open source: products and libraries I design, ship, and keep maintained. They exist because the problems are real — running a fleet of GitHub repositories, importing work into Microsoft Planner, talking to FreeAgent from .NET, logging WordPress CLI jobs properly. Microsoft 365 is a domain I still build in, not a consultancy offering on this site.
     skills:
       enable: true
-      title: "Tools and platforms I use to help businesses streamline workflows and stay secure:"
+      title: "Tools and platforms I use to build and maintain that work:"
       items:
-        - "Microsoft 365 Admin"
-        - "Power Apps"
-        - "SharePoint Sites & Lists"
-        - "Power Automate"
-        - "RapidStart CRM"
-        - "Microsoft Defender"
-        - "Exchange EOP/ATP"
+        - "C#"
+        - ".NET"
+        - "Blazor"
+        - "Microsoft Graph"
+        - "Azure"
+        - "Bicep"
+        - "PHP"
+        - "WordPress"
+        - "GitHub"
+        - "Hugo"
+        - "Aspire"
         - "Dataverse"
-        - "Intune MDM/App Protection"
-        - "Dynamics 365"
 
   contact:
     enable: true
-    content: "Feel free to reach out for collaborations or inquiries."
+    content: "If you want to talk about a project or an open-source tool, email me."
     email: "hello@markheydon.co.uk"
     btnName: "Email Me"
 

@@ -5,8 +5,8 @@ summary: "A tongue-in-cheek open-source universe — personas, organisations, an
 image: "/images/projects/turpinverse.png"
 date: 2026-07-19
 tags:
-  - Personal Projects
   - .NET
+  - C#
 ---
 
 ## Sample data is usually dreadful

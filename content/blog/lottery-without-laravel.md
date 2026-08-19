@@ -5,8 +5,8 @@ summary: "The lottery app did not need a framework any more — so I took it out
 image: "/images/projects/national-lottery-generator-app.png"
 date: 2026-08-06
 tags:
-  - Personal Projects
   - PHP
+  - Laravel
 ---
 
 ## A framework-sized app that was not

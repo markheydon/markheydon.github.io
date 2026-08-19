@@ -5,8 +5,10 @@ summary: "A cooking site that turns meat, weight, and doneness into oven times â
 image: "/images/projects/meaty-times.png"
 date: 2026-07-02
 tags:
-  - Personal Projects
   - .NET
+  - Aspire
+  - Blazor
+  - C#
 ---
 
 ## Sunday lunch as a spec

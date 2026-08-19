@@ -5,13 +5,14 @@ summary: "Monkey Madness Meets Modern Tech: How an 80s Classic Sparked an AI Wee
 image: "/images/projects/the-teachings-of-monkey-site.png"
 date: 2025-12-08
 tags:
-  - Personal Projects
   - AI
+  - GitHub
+  - Hugo
 ---
 
-## How an 80s Classic Inspired an IT Professional's AI Weekend Project
+## How an 80s Classic Inspired a Developer's AI Weekend Project
 
-Sometimes, the best projects start with a spark of curiosity. For me, *The Teachings of Monkey* was exactly that — a quirky idea born from a mix of childhood nostalgia and a desire to experiment with AI in a way that felt genuinely fun. As an IT Professional, I'm always looking for ways to blend technology with creativity, and this weekend project was the perfect playground.
+Sometimes, the best projects start with a spark of curiosity. For me, *The Teachings of Monkey* was exactly that — a quirky idea born from a mix of childhood nostalgia and a desire to experiment with AI in a way that felt genuinely fun. As a developer, I'm always looking for ways to blend technology with creativity, and this weekend project was the perfect playground.
 
 ## Why Monkey?
 
@@ -37,7 +38,7 @@ And if you're curious, you can check out the project's technical details at: [ma
 
 ## Lessons Learned
 
-As an IT Professional, I'm always looking for ways to streamline my work. AI turned out to be a great collaborator and content creator, accelerating the boring bits so I could focus on the fun (by which I of course mean technical) parts. But it's not a replacement for real creativity. The best results came from blending AI speed with my own curation and personality.
+As a developer, I'm always looking for ways to streamline my work. AI turned out to be a great collaborator and content creator, accelerating the boring bits so I could focus on the fun (by which I of course mean technical) parts. But it's not a replacement for real creativity. The best results came from blending AI speed with my own curation and personality.
 
 ## Final Thoughts
 
