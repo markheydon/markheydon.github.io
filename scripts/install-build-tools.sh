@@ -50,10 +50,12 @@ persist_path_for_shells() {
     local profile_contents='# Added by scripts/install-build-tools.sh
 export PATH="${HOME}/.local/hugo:${HOME}/.local/dart-sass:${HOME}/.local/go/bin:${HOME}/.local/node/bin:${PATH}"'
 
+    # /etc/profile.d is only sourced by login shells, so also write it here for
+    # completeness (system-wide), but non-login interactive shells (e.g. VS Code's
+    # integrated terminal) only source ~/.bashrc, so that must be updated too.
     if command -v sudo >/dev/null 2>&1; then
         printf '%s\n' "${profile_contents}" | sudo tee /etc/profile.d/hugo-build-tools-path.sh >/dev/null
         sudo chmod 644 /etc/profile.d/hugo-build-tools-path.sh
-        return 0
     fi
 
     if ! grep -q 'hugo-build-tools-path' "${HOME}/.bashrc" 2>/dev/null; then
