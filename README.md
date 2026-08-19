@@ -6,7 +6,7 @@ My About Me Profile pages stuff.
 
 ### Dev Container / GitHub Codespaces
 
-Open the repo in a Dev Container or Codespace. Hugo Extended is already installed via [`.devcontainer/devcontainer.json`](.devcontainer/devcontainer.json).
+Open the repo in a Dev Container or Codespace. The same pinned Hugo, Dart Sass, and Go versions used in [`.github/workflows/hugo.yml`](.github/workflows/hugo.yml) are installed on create via [`scripts/install-build-tools.sh`](scripts/install-build-tools.sh).
 
 From the project root:
 
