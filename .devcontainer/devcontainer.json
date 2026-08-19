@@ -7,7 +7,6 @@
     "ghcr.io/devcontainers/features/docker-in-docker:4": {}
   },
   "remoteEnv": {
-    "PATH": "${containerEnv:HOME}/.local/hugo:${containerEnv:HOME}/.local/dart-sass:${containerEnv:HOME}/.local/go/bin:${containerEnv:HOME}/.local/node/bin:${containerEnv:PATH}",
     "TZ": "Europe/London"
   },
   "postCreateCommand": "bash scripts/install-build-tools.sh",

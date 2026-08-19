@@ -42,6 +42,29 @@ append_path() {
     fi
 }
 
+persist_path_for_shells() {
+    if [[ -n "${GITHUB_PATH:-}" ]]; then
+        return 0
+    fi
+
+    local profile_contents='# Added by scripts/install-build-tools.sh
+export PATH="${HOME}/.local/hugo:${HOME}/.local/dart-sass:${HOME}/.local/go/bin:${HOME}/.local/node/bin:${PATH}"'
+
+    if command -v sudo >/dev/null 2>&1; then
+        printf '%s\n' "${profile_contents}" | sudo tee /etc/profile.d/hugo-build-tools-path.sh >/dev/null
+        sudo chmod 644 /etc/profile.d/hugo-build-tools-path.sh
+        return 0
+    fi
+
+    if ! grep -q 'hugo-build-tools-path' "${HOME}/.bashrc" 2>/dev/null; then
+        {
+            echo
+            echo '# hugo-build-tools-path (added by scripts/install-build-tools.sh)'
+            echo "${profile_contents}"
+        } >> "${HOME}/.bashrc"
+    fi
+}
+
 mkdir -p "${INSTALL_ROOT}"
 
 if [[ -f go.mod ]]; then
@@ -73,6 +96,7 @@ rm -rf "${INSTALL_ROOT}/hugo"
 mkdir -p "${INSTALL_ROOT}/hugo"
 tar -C "${INSTALL_ROOT}/hugo" -xf "${TEMP_DIR}/hugo_${HUGO_VERSION}_linux-${PLATFORM_ARCH}.tar.gz"
 append_path "${INSTALL_ROOT}/hugo"
+persist_path_for_shells
 
 echo "Installed tool versions:"
 command -v sass >/dev/null 2>&1 && echo "Dart Sass: $(sass --version)" || echo "Dart Sass: not installed"
