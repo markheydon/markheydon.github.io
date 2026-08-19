@@ -2,14 +2,15 @@
   "name": "Hugo Development - markheydon.github.io",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
   "features": {
-    "ghcr.io/devcontainers/features/hugo:1": {
-      "version": "latest",
-      "extended": true
-    },
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/devcontainers/features/docker-in-docker:4": {}
   },
+  "remoteEnv": {
+    "PATH": "${containerEnv:HOME}/.local/hugo:${containerEnv:HOME}/.local/dart-sass:${containerEnv:HOME}/.local/go/bin:${containerEnv:HOME}/.local/node/bin:${containerEnv:PATH}",
+    "TZ": "Europe/London"
+  },
+  "postCreateCommand": "bash scripts/install-build-tools.sh",
   "customizations": {
     "vscode": {
       "extensions": [
