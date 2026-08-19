@@ -1,5 +1,5 @@
 baseURL: "https://markheydon.me.uk/"
-languageCode: "en-gb"
+locale: "en-GB"
 title: "Mark Heydon - Microsoft 365 Consultant & Developer"
 enableRobotsTXT: true
 
@@ -22,7 +22,9 @@ menus:
       url: "/blog/"
       weight: 1
 
-theme: "hugo-profile"
+module:
+  imports:
+    - path: github.com/gurusabarish/hugo-profile
 params:
   description: "Helping UK businesses streamline workflows and strengthen security with Microsoft 365 solutions."
   author: "Mark Heydon"
