@@ -1,1 +1,25 @@
-{"taxonomy":{"tags":["AI","Blazor","Consulting","Dataverse","Docker","GitHub","GitHub Pages","Hugo","Laravel","Microsoft 365","PHP","Personal Projects"],"categories":[]}}
+{
+  "taxonomy": {
+    "tags": [
+      ".NET",
+      "AI",
+      "Aspire",
+      "Azure",
+      "Bicep",
+      "Blazor",
+      "C#",
+      "Dataverse",
+      "Docker",
+      "FreeAgent",
+      "GitHub",
+      "Hugo",
+      "Laravel",
+      "Microsoft 365",
+      "Microsoft Graph",
+      "PHP",
+      "PowerShell",
+      "WordPress"
+    ],
+    "categories": []
+  }
+}

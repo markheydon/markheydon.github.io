@@ -1,16 +1,16 @@
-name: Build and deploy
+# Build-only check. Tool install and hugo build flags stay in sync with hugo.yml via scripts/install-build-tools.sh.
+name: Build
 on:
+  pull_request:
   push:
-    branches:
+    branches-ignore:
       - main
   workflow_dispatch:
 permissions:
   contents: read
-  pages: write
-  id-token: write
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: hugo-build-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 defaults:
   run:
     shell: bash
@@ -33,10 +33,6 @@ jobs:
           submodules: recursive
           fetch-depth: 0
           lfs: false
-
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v6
 
       - name: Install build tools
         env:
@@ -86,27 +82,12 @@ jobs:
           hugo build \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --baseURL "https://markheydon.me.uk/" \
             --cacheDir "${{ runner.temp }}/.cache/hugo"
+          test -f public/index.html
 
       - name: Cache save
         uses: actions/cache/save@v6
         with:
           path: ${{ runner.temp }}/.cache/hugo
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v5
-        with:
-          include-hidden-files: false
-          path: ./public
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5

@@ -1,36 +1,39 @@
 {
   "name": "Hugo Development - markheydon.github.io",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
-  
   "features": {
-    "ghcr.io/devcontainers/features/hugo:1": {
-      "version": "latest",
-      "extended": true
-    },
     "ghcr.io/devcontainers/features/git:1": {},
-    "ghcr.io/devcontainers/features/github-cli:1": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:4": {}
   },
-  
-  "postCreateCommand": "git submodule update --init --recursive",
-  
+  "remoteEnv": {
+    "TZ": "Europe/London"
+  },
+  "postCreateCommand": "bash scripts/install-build-tools.sh",
   "customizations": {
     "vscode": {
       "extensions": [
         "budparr.language-hugo-vscode",
         "eliostruyf.vscode-front-matter",
-        "davidanson.vscode-markdownlint"
+        "davidanson.vscode-markdownlint",
+        "streetsidesoftware.code-spell-checker"
       ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash"
       }
     }
   },
-  
-  "forwardPorts": [1313],
-  
+  "forwardPorts": [
+    1313,
+    8080
+  ],
   "portsAttributes": {
     "1313": {
       "label": "Hugo Server",
+      "onAutoForward": "notify"
+    },
+    "8080": {
+      "label": "Hugo Preview",
       "onAutoForward": "notify"
     }
   }

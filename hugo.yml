@@ -1,7 +1,11 @@
 baseURL: "https://markheydon.me.uk/"
-languageCode: "en-gb"
-title: "Mark Heydon - Microsoft 365 Consultant & Developer"
+locale: "en-GB"
+title: "Mark Heydon - Software Engineer"
 enableRobotsTXT: true
+
+caches:
+  images:
+    dir: :cacheDir/images
 
 pagination:
   pagerSize: 8
@@ -22,9 +26,11 @@ menus:
       url: "/blog/"
       weight: 1
 
-theme: "hugo-profile"
+module:
+  imports:
+    - path: github.com/gurusabarish/hugo-profile
 params:
-  description: "Helping UK businesses streamline workflows and strengthen security with Microsoft 365 solutions."
+  description: "Solo software engineer building practical tools for Microsoft 365 Business and small-business day-to-day work. C#/.NET, open source, AI in the loop."
   author: "Mark Heydon"
   favicon: "/favicon.ico"
 
@@ -32,6 +38,8 @@ params:
 
   singlePages:
     socialShare: false
+    tags:
+      openInNewTab: false
     scrollProgress:
       enable: true
 
@@ -58,7 +66,8 @@ params:
     enable: true
     intro: "Welcome to my profile site!"
     title: "Mark Heydon"
-    subtitle: "Microsoft 365 Consultant & Developer"
+    subtitle: "Solo C#/.NET developer"
+    content: "Practical tools for Microsoft 365 Business and small-business ops, built with AI in the loop so more actually ships."
     image: "/images/profile.png"
     button:
       enable: true
@@ -78,27 +87,30 @@ params:
     title: "About Me"
     image: "/images/profile.png"
     content: |-
-      I help UK small businesses get the most out of Microsoft 365 by building secure, automated solutions.
-      
-      My work spans Business Apps (Power Apps, Dataverse, Dynamics), workflow automation with Power Automate, and robust security for Microsoft 365 environments.
+      I'm a software engineer, self-taught from an early age, who later formalised that with a Software Engineering degree from the Open University. Decades of professional development and commercial experience.
+
+      I build practical tools for smaller businesses' day-to-day operations, with a particular focus on Microsoft 365 Business technologies. I'm passionate about open source work: design it, ship it, keep it maintained, because the problems are real. I maintain a fleet of GitHub repositories: importing work into Microsoft Planner, talking to FreeAgent from .NET, logging WordPress CLI jobs properly. Sponsorship and paid work help fund that, although I'm not pretending open source alone pays the bills. As a solo developer I use AI coding tools openly: not instead of knowing how to build, but so more of the right work actually ships. These days that's mainly C#/.NET and PowerShell, with WordPress still in the mix. I keep current with things like .NET Aspire.
     skills:
       enable: true
-      title: "Tools and platforms I use to help businesses streamline workflows and stay secure:"
+      title: "Tools and platforms I use to build and maintain that work:"
       items:
-        - "Microsoft 365 Admin"
-        - "Power Apps"
-        - "SharePoint Sites & Lists"
-        - "Power Automate"
-        - "RapidStart CRM"
-        - "Microsoft Defender"
-        - "Exchange EOP/ATP"
+        - "C#"
+        - ".NET"
+        - "PowerShell"
+        - "Blazor"
+        - "Microsoft Graph"
+        - "Azure"
+        - "Bicep"
+        - "PHP"
+        - "WordPress"
+        - "GitHub"
+        - "Hugo"
+        - "Aspire"
         - "Dataverse"
-        - "Intune MDM/App Protection"
-        - "Dynamics 365"
 
   contact:
     enable: true
-    content: "Feel free to reach out for collaborations or inquiries."
+    content: "If you want to talk about a project or an open-source tool, email me."
     email: "hello@markheydon.co.uk"
     btnName: "Email Me"
 

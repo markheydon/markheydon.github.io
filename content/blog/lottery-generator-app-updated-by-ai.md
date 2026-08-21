@@ -1,12 +1,13 @@
 ---
 title: "Breathing New Life into my Lottery Generator with AI"
-description: "Revamping my old Lottery Generator app with AI—modernising the code, automating tests, and handling the boring bits while I focus on what matters."
-summary: "Revamping my old Lottery Generator app with AI—modernising the code, automating tests, and handling the boring bits while I focus on what matters."
+description: "Revamping my old Lottery Generator app with AI, modernising the code, automating tests, and handling the boring bits while I focus on what matters."
+summary: "Revamping my old Lottery Generator app with AI, modernising the code, automating tests, and handling the boring bits while I focus on what matters."
 image: "/images/projects/national-lottery-generator-app.png"
 date: 2025-12-15
 tags:
-  - Personal Projects
   - AI
+  - Laravel
+  - PHP
 ---
 
 ## Intro
@@ -31,7 +32,7 @@ If you're curious, you can check out the project's technical details at: [markhe
 
 ## Lessons Learned
 
-AI is great for grunt work like tests, boilerplate, and even suggesting optimisations. But judgment still matters. Some AI suggestions were clever but over-engineered for a simple app. Knowing when to say “no” is part of this new way of working with AI in the mix.
+AI is great for grunt work like tests, boilerplate, and even suggesting optimisations. But judgement still matters. Some AI suggestions were clever but over-engineered for a simple app. Knowing when to say “no” is part of this new way of working with AI in the mix.
 
 ## Final Thoughts
 
