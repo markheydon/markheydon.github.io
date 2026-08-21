@@ -5,7 +5,7 @@ Source of truth for which GitHub repos may appear on [markheydon.me.uk](https://
 ## Field reference
 
 | Field | Values | Meaning |
-|-------|--------|---------|
+| ------- | -------- | --------- |
 | `status` | `showcase` \| `excluded` \| `pending` | May we write or maintain public site content for this repo? |
 | `visibility` | `public` \| `private` | From GitHub (informational). |
 | `project` | path or empty | Hugo project page under `content/projects/`. Empty = gap to fill. |
@@ -22,6 +22,7 @@ Source of truth for which GitHub repos may appear on [markheydon.me.uk](https://
 ## Manual site-only (no GitHub repo)
 
 ### hosted-sites-billing-app
+
 - status: showcase
 - github: none
 - visibility: n/a
@@ -35,6 +36,7 @@ Source of truth for which GitHub repos may appear on [markheydon.me.uk](https://
 ## Showcase (approved for the public site)
 
 ### markheydon/solo-dev-board
+
 - status: showcase
 - visibility: public
 - project: content/projects/solo-dev-board.md
@@ -42,13 +44,15 @@ Source of truth for which GitHub repos may appear on [markheydon.me.uk](https://
 - image: ok (`static/images/projects/solo-dev-board.png`; real capture from repo `website/static/images/dashboard/home.png`)
 
 ### markheydon/import-to-planner
+
 - status: showcase
 - visibility: public
 - project: content/projects/import-to-planner.md
 - blog: has-post (content/blog/import-to-planner.md)
-- image: ok (`static/images/projects/import-to-planner.png`; real capture of https://docs.importplanner.app/)
+- image: ok (`static/images/projects/import-to-planner.png`; real capture of <https://docs.importplanner.app/>)
 
 ### markheydon/freeagent-dotnet
+
 - status: showcase
 - visibility: public
 - project: content/projects/freeagent-dotnet.md
@@ -56,13 +60,15 @@ Source of truth for which GitHub repos may appear on [markheydon.me.uk](https://
 - image: ok (`static/images/projects/freeagent-dotnet.png`; real capture of GitHub README; library has no product UI)
 
 ### markheydon/monolog-wp-cli
+
 - status: showcase
 - visibility: public
 - project: content/projects/monolog-wp-cli.md
 - blog: has-post (content/blog/monolog-wp-cli-monolog-3.md)
-- image: ok (`static/images/projects/monolog-wp-cli.png`; real capture of https://markheydon.me.uk/monolog-wp-cli/)
+- image: ok (`static/images/projects/monolog-wp-cli.png`; real capture of <https://markheydon.me.uk/monolog-wp-cli/>)
 
 ### markheydon/meaty-times
+
 - status: showcase
 - visibility: public
 - project: content/projects/meaty-times.md
@@ -70,6 +76,7 @@ Source of truth for which GitHub repos may appear on [markheydon.me.uk](https://
 - image: ok (`static/images/projects/meaty-times.png`; real capture of live Roast Calculator app)
 
 ### markheydon/national-lottery-generator
+
 - status: showcase
 - visibility: public
 - project: content/projects/national-lottery-generator-app.md
@@ -77,6 +84,7 @@ Source of truth for which GitHub repos may appear on [markheydon.me.uk](https://
 - image: ok (`static/images/projects/national-lottery-generator-app.png`)
 
 ### markheydon/avd-occasional
+
 - status: showcase
 - visibility: public
 - project: content/projects/avd-occasional-bicep.md
@@ -84,6 +92,7 @@ Source of truth for which GitHub repos may appear on [markheydon.me.uk](https://
 - image: ok (`static/images/projects/avd-occasional-bicep.png`)
 
 ### markheydon/the-teachings-of-monkey
+
 - status: showcase
 - visibility: public
 - project: content/projects/the-teachings-of-monkey.md
@@ -91,6 +100,7 @@ Source of truth for which GitHub repos may appear on [markheydon.me.uk](https://
 - image: ok (`static/images/projects/the-teachings-of-monkey-site.png`)
 
 ### markheydon/UnmessyCleanExample
+
 - status: showcase
 - visibility: public
 - project: (missing — gap)
@@ -98,32 +108,37 @@ Source of truth for which GitHub repos may appear on [markheydon.me.uk](https://
 - image: ok (`static/images/projects/unmessy-clean-example.png`; real capture of GitHub README; blog reuses same path)
 
 ### markheydon/turpinverse
+
 - status: showcase
 - visibility: public
 - project: (missing — gap)
 - blog: has-post (content/blog/turpinverse.md)
-- image: ok (`static/images/projects/turpinverse.png`; real capture of https://turpinverse.uk/; blog reuses same path)
+- image: ok (`static/images/projects/turpinverse.png`; real capture of <https://turpinverse.uk/>; blog reuses same path)
 
 ---
 
 ## Auto-skip (excluded; do not prompt every scan)
 
 ### markheydon/markheydon.github.io
+
 - status: excluded
 - visibility: public
 - notes: This Hugo site repository.
 
 ### markheydon/hugo-profile
+
 - status: excluded
 - visibility: public
 - notes: Upstream theme fork.
 
 ### markheydon/markheydon
+
 - status: excluded
 - visibility: public
 - notes: GitHub profile README repo; paste from identity.md, not a project page.
 
 ### markheydon/github-workflows
+
 - status: excluded
 - visibility: public
 - notes: Shared workflow templates; supporting repo, not a standalone showcase product.
@@ -135,7 +150,7 @@ Source of truth for which GitHub repos may appear on [markheydon.me.uk](https://
 Repos owned on GitHub that are not listed above default to **pending** when the skill scans. Examples likely to need a decision:
 
 | Repo | Visibility | Notes |
-|------|------------|-------|
+| ------ | ------------ | ------- |
 | markheydon/billdrift-web | public | Recent activity; no project page yet |
 | markheydon/better-freeagent-projects | private | BFAP add-on |
 | markheydon/m365-self-managed | public | M365 guide repo |
