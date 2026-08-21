@@ -1,7 +1,7 @@
 ---
 title: "Clean Architecture, Without the 47-Project Sample"
-description: "After a long stretch away from product code, I needed a Clean Architecture example I could actually follow — so I wrote one."
-summary: "After a long stretch away from product code, I needed a Clean Architecture example I could actually follow — so I wrote one."
+description: "After a long stretch away from product code, I needed a Clean Architecture example I could actually follow, so I wrote one."
+summary: "After a long stretch away from product code, I needed a Clean Architecture example I could actually follow, so I wrote one."
 image: "/images/projects/unmessy-clean-example.png"
 date: 2025-11-30
 tags:
@@ -19,10 +19,10 @@ The result is [UnmessyCleanExample](https://github.com/markheydon/UnmessyCleanEx
 
 ## What is actually in it
 
-- **Domain** — business logic and entities. No other project, no NuGet noise.
-- **Application** — use cases and service interfaces. Depends on Domain only.
-- **Infrastructure** — adapters. Data access and anything that talks to the outside world.
-- **BlazorWebApp** — the UI. It depends inward; Domain does not know it exists.
+- **Domain**: business logic and entities. No other project, no NuGet noise.
+- **Application**: use cases and service interfaces. Depends on Domain only.
+- **Infrastructure**: adapters. Data access and anything that talks to the outside world.
+- **BlazorWebApp**: the UI. It depends inward; Domain does not know it exists.
 
 That is the whole point of the exercise. Outer layers depend on inner ones. The core stays testable. I used the default Blazor template on .NET 10 / C# 14 shortly after Visual Studio 2026 GA, then carved it up until the arrows went the right way.
 

@@ -18,26 +18,26 @@ links:
 
 ## Overview
 
-**MeatyTimes** is a small cooking assistant for roasting joints of meat. You pick a type (beef, lamb, pork, chicken, or gammon), a weight, and a doneness where it applies. It returns oven temperature, cooking time, and rest time — and it can work backwards from a serve-at time so the roast actually fits around a meal.
+**MeatyTimes** is a small cooking assistant for roasting joints of meat. You pick a type (beef, lamb, pork, chicken, or gammon), a weight, and a doneness where it applies. It returns oven temperature, cooking time, and rest time, and it can work backwards from a serve-at time so the roast actually fits around a meal. Ok not exactly useful in your average business settings this one, but I got sick of digging through my notes on the odd occasion I have a roast and wanted a simple calculator to tell me when to put the oven on. So I built one.
 
 It is a weekend-shaped product with weekday-shaped engineering: domain rules live in a dedicated core project, cooking-critical behaviour is unit-tested, and the UI is a MudBlazor Blazor app orchestrated with .NET Aspire. The cooking rules themselves are documented JSON, not magic numbers buried in a button click.
 
-Not everything I publish has to be Microsoft 365. Sometimes you just want Sunday lunch to come out on time.
+*Not everything I publish has to be Microsoft 365. Sometimes you just want Sunday lunch to come out on time.*
 
 ## Technologies Used
 
-- **.NET 10** — ASP.NET Core minimal APIs plus Blazor Server.
-- **MudBlazor** — responsive UI for phone, tablet, and desktop.
-- **.NET Aspire** — local orchestration of the API, UI, and service defaults.
-- **xUnit v3 + bUnit** — domain calculation tests and component tests.
-- **OpenTelemetry** — health checks and telemetry via shared service defaults.
+- **.NET 10**: ASP.NET Core minimal APIs plus Blazor Server.
+- **MudBlazor**: responsive UI for phone, tablet, and desktop.
+- **.NET Aspire**: local orchestration of the API, UI, and service defaults.
+- **xUnit v3 + bUnit**: domain calculation tests and component tests.
+- **OpenTelemetry**: health checks and telemetry via shared service defaults.
 
 ## Key Features
 
-- **Roast calculator** — beef, lamb, pork, chicken, and gammon.
-- **Doneness handling** — where it is appropriate, with food-safe defaults for poultry and pork.
-- **Serve-at scheduling** — work backwards from when you want to eat.
-- **Auditable rules** — cooking logic lives in `MeatyTimes.Core` with documented sources.
+- **Roast calculator**: beef, lamb, pork, chicken, and gammon.
+- **Doneness handling**: where it is appropriate, with food-safe defaults for poultry and pork.
+- **Serve-at scheduling**: work backwards from when you want to eat.
+- **Auditable rules**: cooking logic lives in `MeatyTimes.Core` with documented sources.
 
 ## Docs
 

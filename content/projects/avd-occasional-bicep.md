@@ -17,31 +17,31 @@ links:
 
 ## Overview
 
-**avd‑occasional** is a practical, infrastructure‑as‑code solution for deploying a full Azure Virtual Desktop (AVD) environment on demand. The idea came from my own recurring need: when travelling or visiting family, I often require a capable development machine — something far beyond what my lightweight laptop can manage.
+**avd‑occasional** is a practical, infrastructure‑as‑code solution for deploying a full Azure Virtual Desktop (AVD) environment on demand. The idea came from a recurring/occasional need I had: when travelling or visiting family, I often require a capable development machine, something far beyond what my lightweight laptop can manage.
 
-Having built AVD manually in the past, I knew how many interconnected steps were involved, and how unrealistic it was to remember them months later when I needed the environment again. I wanted a setup I could summon with a single deployment, use for a few days, then tear down without hesitation.
+Having built AVD manually in the past, I knew how many interconnected steps were involved; how unrealistic it was to remember them months later when I needed the environment again; and frankly what a complete PITA it is getting it working. I wanted a setup I could have up and running with a single command, use for a few days, and then get rid again without much thought.
 
-This project delivers exactly that. Using **Bicep**, it automates all AVD components into a clean, reproducible workflow. It also served as my first real Bicep project — a surprisingly enjoyable way to learn the language while solving a real‑world problem.
+This project aims to deliver that. Using **Bicep**, it automates all AVD components into a clean, reproducible workflow. It also served as my first Bicep project, a surprisingly enjoyable way to manage Azure resources that I wish I'd found before now in all honesty.
 
 ## Technologies Used
 
-- **Azure Virtual Desktop** — cloud‑hosted Windows desktops for development and testing.
-- **Azure Bicep** — modular infrastructure‑as‑code used to orchestrate every component.
-- **Azure Resource Manager** — underlying deployment platform.
-- **Azure Networking** — virtual networks, subnets, extensions, and connectivity.
-- **Entra ID** — identity and optional domain join.
-- **Azure CLI** — command‑line deployment interface.
-- **GitHub** — source control and open‑source hosting.
-- **GitHub Pages** — docs site with config and setup details.
+- **Azure Virtual Desktop**: cloud‑hosted Windows desktops for development and testing.
+- **Azure Bicep**: modular infrastructure‑as‑code used to orchestrate every component.
+- **Azure Resource Manager**: underlying deployment platform.
+- **Azure Networking**: virtual networks, subnets, extensions, and connectivity.
+- **Entra ID**: identity and optional domain join.
+- **Azure CLI**: command‑line deployment interface.
+- **GitHub**: source control and open‑source hosting.
+- **GitHub Pages**: docs site with config and setup details.
 
 ## Key Features
 
-- **Full AVD deployment** — host pool, workspace, application group, VM(s), and extensions.
-- **Clean modular Bicep structure** — easy to read, extend, and troubleshoot.
-- **One‑command provisioning** — deploy a complete environment from parameters.
-- **Designed for occasional use** — perfect for a short‑term dev box.
-- **Cost‑efficient** — destroy the resource group to instantly stop all spend.
-- **Real‑world ready** — handles the wiring, RBAC, networking, and identity steps that are tedious to configure manually.
+- **Full AVD deployment**: host pool, workspace, application group, VM(s), and extensions.
+- **Clean modular Bicep structure**: easy to read, extend, and troubleshoot.
+- **One‑command provisioning**: deploy a complete environment from parameters.
+- **Designed for occasional use**: perfect for a short‑term dev box.
+- **Cost‑efficient**: destroy the resource group to instantly stop all spend.
+- **Real‑world ready**: handles the wiring, RBAC, networking, and identity steps that are tedious to configure manually.
 
 ## Docs Site
 

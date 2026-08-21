@@ -1,7 +1,7 @@
 ---
 title: "Dropping Laravel from the Lottery Generator"
-description: "The lottery app did not need a framework any more — so I took it out."
-summary: "The lottery app did not need a framework any more — so I took it out."
+description: "The lottery app did not need a framework any more, so I took it out."
+summary: "The lottery app did not need a framework any more, so I took it out."
 image: "/images/projects/national-lottery-generator-app.png"
 date: 2026-08-06
 tags:
@@ -11,11 +11,9 @@ tags:
 
 ## A framework-sized app that was not
 
-Last December I [wrote about using AI to drag the lottery generator into the present](/blog/lottery-generator-app-updated-by-ai/). That pass was about Laravel versions, tests, and not wanting to touch Composer conflicts by hand.
+Last December I [wrote about using AI to drag the lottery generator into the present](/blog/lottery-generator-app-updated-by-ai/). That post was about Laravel versions, tests, and not wanting to touch Composer conflicts by hand.
 
-A few months later the honest question was different: why is this still a Laravel app?
-
-It serves a handful of game pages, caches some CSVs on disk, and prints numbers. There is no user accounts, no queue, no Eloquent model that earns its keep. The framework was leftover from 2019-me wanting to try Laravel.
+A few months later (and what feels like several million Dependabot PR merges later) I started to ask myself, is this Laravel thing really worth it for such a small app? Probably not!
 
 ## What changed
 
@@ -25,7 +23,7 @@ The live site is the same URL. The behaviour is the same on purpose. The win is 
 
 ## Was AI involved? Of course it was
 
-The migration went through as a proper epic with tests moved, leftovers deleted, and docs rewritten. I still used agents for the boring mechanical bits — the same deal as last time. Judgement was deciding the framework was the problem, not the PHP.
+The migration went through as a proper epic with tests moved, leftovers deleted, and docs rewritten. I still used agents for the boring mechanical bits, the same deal as last time. Judgement was deciding the framework was the problem, not the PHP.
 
 ## Project details
 

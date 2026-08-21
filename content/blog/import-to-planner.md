@@ -1,7 +1,7 @@
 ---
-title: "Import To Planner: CSV In, Tasks Out, Nothing Written Until You Say So"
-description: "A Blazor app for importing a spreadsheet into Microsoft Planner through Graph — validate, preview, then confirm."
-summary: "A Blazor app for importing a spreadsheet into Microsoft Planner through Graph — validate, preview, then confirm."
+title: "Import To Planner: CSV In, Plan Out"
+description: "A Blazor app for importing a spreadsheet into Microsoft Planner through Graph, validate, preview, then confirm."
+summary: "A Blazor app for importing a spreadsheet into Microsoft Planner through Graph, validate, preview, then confirm."
 image: "/images/projects/import-to-planner.png"
 date: 2026-04-10
 tags:
@@ -14,15 +14,13 @@ tags:
 
 ## The spreadsheet is never the plan
 
-I keep running into the same Microsoft 365 job: someone has a CSV (or a spreadsheet that became a CSV), Planner is where the work should live, and Graph will do the write if you let it. Letting it dump a hundred rows in with no preview is how you get a hundred duplicates and a very unhappy plan owner.
+When managing projects via Microsoft Planner, I often run into the same Microsoft 365 job: creating templated tasks in Planner.
 
 **Import To Planner** is a single-purpose Blazor app for that job. Pick a container, pick a plan, upload the file, validate and preview, then confirm. Writes only happen on that last step.
 
-## Why the ceremony
+I didn't want anything too fancy (at this point at least) so feature-rich, it is not, but it does the job for me. Take a CSV file with a load of tasks in it (that I use time and time again) and import it into Planner. The app validates the rows, shows you what will be created, and then creates them.
 
-Row-level validation is cheap compared with cleaning up Planner afterwards. Existing tasks can be matched by name so a re-run does not clone the board. If a row fails transiently, it retries once and the report tells you what was created, skipped, or needs a pair of hands.
-
-Self-hosting is a real path, not a footnote. You can point it at your own Entra tenant. Hosted multi-tenant mode exists if you need it; you do not need it to run the software.
+At the moment, it's a self-hosting thing: you can point it at your own Entra tenant. Hosted multi-tenant mode exists if you need it; you do not need it to run the software. My eventual plan is to create a paid-for multi-tenant hosted version, but for now, it's a single-tenant app that you can run yourself.
 
 ## Stack
 
@@ -34,4 +32,4 @@ The technical write-up is here: [Import To Planner](/projects/import-to-planner/
 
 ## Final thoughts
 
-This is M365 development, not a support package. One workflow, done carefully, for a problem that looks simple until you skip the preview.
+This is a small project, but it solves a real-world headache for me. I have a lot of recurring tasks that I need to create in Planner, and this app makes it easy to do so. It also serves as a good example of how to use Microsoft Graph in a Blazor app, and how to structure a small project with a clean architecture.

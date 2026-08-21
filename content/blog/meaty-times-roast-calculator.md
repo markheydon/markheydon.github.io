@@ -1,7 +1,7 @@
 ---
 title: "MeatyTimes: A Roast Calculator with Far Too Much Engineering"
-description: "A cooking site that turns meat, weight, and doneness into oven times — and a serve-at schedule — treated like a real product."
-summary: "A cooking site that turns meat, weight, and doneness into oven times — and a serve-at schedule — treated like a real product."
+description: "A cooking site that turns meat, weight, and doneness into oven times, and a serve-at schedule, treated like a real product."
+summary: "A cooking site that turns meat, weight, and doneness into oven times, and a serve-at schedule, treated like a real product."
 image: "/images/projects/meaty-times.png"
 date: 2026-07-02
 tags:
@@ -13,9 +13,7 @@ tags:
 
 ## Sunday lunch as a spec
 
-Not everything I publish has to earn its keep. **MeatyTimes** calculates roast times. You pick beef, lamb, pork, chicken, or gammon, a weight, and a doneness where that is appropriate. It gives you oven temperature, cooking time, and rest time. It can also work backwards from a serve-at time so the joint actually lands when you want to eat.
-
-That is the whole product. I then put it in Aspire, wrote unit tests for the sums, documented the cooking rules as JSON, and gave it a MudBlazor UI. Ridiculous ceremony for a roast. Also exactly how I wanted to spend that week.
+**MeatyTimes** calculates roast times. You pick beef, lamb, pork, chicken, or gammon, a weight, and a doneness where that is appropriate. It gives you oven temperature, cooking time, and rest time. It can also work backwards from a serve-at time so the joint actually lands when you want to eat.
 
 ## Why bother?
 
@@ -25,7 +23,7 @@ Poultry and pork get food-safe defaults. Doneness is a choice where it makes sen
 
 ## What I used
 
-Blazor Server, minimal APIs, .NET Aspire for local orchestration, xUnit v3 and bUnit. The rules sit in `MeatyTimes.Core`. If I change how long a kilo of beef takes, a test should fail before anyone puts the oven on.
+Blazor Server, minimal APIs, .NET Aspire for local orchestration, xUnit v3 and bUnit. The rules sit in `MeatyTimes.Core`. If I change how long a kilo of beef takes, a test should fail before anyone puts the oven on. Quite honestly though, what I've done it total overkill, but I wanted something to test the *recommended* Aspire architecture on. It is a small app, but it is a real app, and I wanted to treat it like one.
 
 ## Project details
 
@@ -33,4 +31,4 @@ The technical write-up is here: [MeatyTimes](/projects/meaty-times/). Docs: [mea
 
 ## Final thoughts
 
-I will not pretend this needed a distributed application. It did not. It needed an answer I trusted, and a repo I could keep in the same shape as the things I take more seriously. The roast still has to come out on time.
+I will not pretend this needed a distributed application. It did not. And probably will get rid of the 'apiserver' container at some point, but for now, it's a thing that I find useful now and then when roasting meat.

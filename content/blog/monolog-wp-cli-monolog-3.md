@@ -13,13 +13,11 @@ tags:
 
 [Monolog WP-CLI](https://packagist.org/packages/mhcg/monolog-wp-cli) has been on Packagist for years. It does one job: when a WordPress command is running under `wp`, Monolog output goes through WP-CLI instead of a log file nobody looks at.
 
-Debug respects `--debug`. Info respects `--quiet`. Errors always show. That mapping is the whole point of the handler.
-
-The work this year was refusing to let it rot.
+It's definitely something that I've allowed to go by the wayside. The last release was back in 2020 and been meaning to get round to updating it for some time now. The Monolog 3 line was added in July 2026, and the PHP floor is now 8.1. The docs are now a Hugo site, deployed to [markheydon.me.uk/monolog-wp-cli](https://markheydon.me.uk/monolog-wp-cli).
 
 ## What changed
 
-The current line targets **Monolog 3** and PHP **8.1** and up. CI runs across 8.1–8.5. The 2.x branch stays for Monolog 2 users and still gets critical fixes.
+Updated for **Monolog 3** and PHP **8.1** and up. CI runs across 8.1–8.5. The 2.x branch stays for Monolog 2 users and still gets critical fixes.
 
 WordPress support is an explicit smoke-test matrix rather than a vague “it works with WordPress” claim. I would rather list the tuples I actually run than imply a blanket guarantee.
 
@@ -31,4 +29,4 @@ The technical write-up is here: [Monolog WP-CLI Handler](/projects/monolog-wp-cl
 
 ## Final thoughts
 
-This is not a new idea. It is a maintained one. The useful work was the major-version bump, the support policy, and documentation that is not a lie of omission.
+Must admit I'm slightly embarrassed that this package has been on Packagist for years and I never got round to updating it. But it's now in a better state than it was, and the docs are way better than I'd hoped for in such a small project.

@@ -18,25 +18,25 @@ links:
 
 **FreeAgent .NET Client** is an open-source library for talking to the [FreeAgent API](https://dev.freeagent.com/docs) from modern .NET.
 
-I needed a client that behaved like a proper SDK: OAuth 2.0 with token refresh, respect for rate-limit headers, bounded retries, typed errors, and pagination you can either page yourself or consume as an async stream. Coverage is still growing — Company and Contacts are in first — and the public API is still in prerelease, which I am being explicit about rather than pretending it is finished.
+I was far from impressed with the existing .NET libraries on NuGet for working with the FreeAgent API, and I needed a client that behaved like a proper SDK (i.e. OAuth 2.0 with token refresh, respect for rate-limit headers, bounded retries, typed errors, and pagination) for an upcoming FreeAgent based project. So I decided to write my own. Coverage is still a bit limited at this point: Company and Contacts are in first, and the public API is still in prerelease.
 
-It targets **.NET 8** and **.NET 10**, is fully async, and ships with XML docs. If you are wiring FreeAgent into a .NET app and do not want to re-solve OAuth and HTTP transport, this is the starting point I wished existed.
+It targets **.NET 8** and **.NET 10**, is fully async, and ships with XML docs. If you are wiring FreeAgent into a .NET app and do not want to re-solve OAuth and HTTP transport, this is the starting point I wished existed. And hopefully before too long it will be a bit more complete with the rest of the FreeAgent API calls.
 
 ## Technologies Used
 
-- **C# / .NET 8 and 10** — multi-targeted client library.
-- **OAuth 2.0** — authorization URL, code exchange, and automatic refresh.
-- **HttpClient** — rate-limit headers, `Retry-After`, exponential backoff.
-- **xUnit** — automated tests across both target frameworks.
+- **C# / .NET 8 and 10**: multi-targeted client library.
+- **OAuth 2.0**: authorization URL, code exchange, and automatic refresh.
+- **HttpClient**: rate-limit headers, `Retry-After`, exponential backoff.
+- **xUnit**: automated tests across both target frameworks.
 
 ## Key Features
 
-- **OAuth helper** — `FreeAgentOAuthClient` for the authorization code flow.
-- **Typed exceptions** — rate limit, OAuth, and general API errors instead of raw HTTP.
-- **Pagination** — single page or `IAsyncEnumerable` auto-pagination for contacts.
-- **Safe retries** — GET/DELETE by default; mutating methods opt in.
-- **Company API** — company details, business categories, tax timeline.
-- **Contacts API** — paged list and full auto-pagination.
+- **OAuth helper**: `FreeAgentOAuthClient` for the authorization code flow.
+- **Typed exceptions**: rate limit, OAuth, and general API errors instead of raw HTTP.
+- **Pagination**: single page or `IAsyncEnumerable` auto-pagination for contacts.
+- **Safe retries**: GET/DELETE by default; mutating methods opt in.
+- **Company API**: company details, business categories, tax timeline.
+- **Contacts API**: paged list and full auto-pagination.
 
 ## Repository
 
