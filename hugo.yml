@@ -38,6 +38,8 @@ params:
 
   singlePages:
     socialShare: false
+    tags:
+      openInNewTab: false
     scrollProgress:
       enable: true
 
