@@ -1,6 +1,6 @@
 # Public identity (source of truth)
 
-This file is the canonical copy for **developer-facing** public surfaces. MHCG LTD consultancy / Care Plan sales copy lives on [markheydon.co.uk](https://markheydon.co.uk/) and must not appear on this profile site. Exception: the **LinkedIn** paste block below may name MHCG LTD (solutions and consultancy — not technical support), because LinkedIn has a shared audience.
+This file is the canonical copy for **developer-facing** public surfaces. MHCG LTD consultancy / Care Plan sales copy lives on [markheydon.co.uk](https://markheydon.co.uk/) and must not appear on this profile site. Exception: the **LinkedIn** paste block below may name MHCG LTD (solutions and consultancy, not technical support), because LinkedIn has a shared audience.
 
 **When the message changes:** edit this file first, then run `/sync-identity` (skill: `sync-public-identity`). The agent updates `hugo.yml` and in-repo content. Human still pastes GitHub, Sponsors, and LinkedIn content.
 
@@ -20,10 +20,16 @@ Paste into `hugo.yml` (`title` and `params`). The `/sync-identity` skill does th
 Mark Heydon - Software Engineer
 ```
 
-**Hero subtitle:**
+**Hero subtitle** (`params.hero.subtitle`, short display line under the name):
 
 ```text
-Solo C#/.NET developer: practical tools for Microsoft 365 Business and small-business ops, built with AI in the loop so more actually ships.
+Solo C#/.NET developer
+```
+
+**Hero content** (`params.hero.content`, body copy under the subtitle):
+
+```text
+Practical tools for Microsoft 365 Business and small-business ops, built with AI in the loop so more actually ships.
 ```
 
 **Meta description** (search snippet):

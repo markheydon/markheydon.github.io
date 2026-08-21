@@ -26,7 +26,7 @@ When scanning or rewriting in-repo copy: strip accidental MHCG sales language fr
 
 ## Workflow
 
-1. **Site**: Copy the Site section into [hugo.yml](../../../hugo.yml): `title`, `params.description`, `hero.subtitle`, `about.content`, `about.skills.title`, `about.skills.items`, `contact.content`. Leave email, social URLs, and the globe link to markheydon.co.uk unchanged unless identity.md says otherwise.
+1. **Site**: Copy the Site section into [hugo.yml](../../../hugo.yml): `title`, `params.description`, `hero.subtitle`, `hero.content`, `about.content`, `about.skills.title`, `about.skills.items`, `contact.content`. Keep `hero.subtitle` short (display line under the name); put the longer supporting sentence in `hero.content` (theme body copy). Leave email, social URLs, and the globe link to markheydon.co.uk unchanged unless identity.md says otherwise.
 
 2. **Voice scan (this site only)**: Search `hugo.yml`, `content/**`, and site-facing templates for consultant, consultancy, care plan, IT Professional, and SMB-services pitch language that would put MHCG offerings on markheydon.me.uk. Fix those. Skip intentional `.co.uk` URLs. Skip the LinkedIn / paste-only sections inside `identity.md`.
 

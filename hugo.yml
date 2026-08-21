@@ -64,7 +64,8 @@ params:
     enable: true
     intro: "Welcome to my profile site!"
     title: "Mark Heydon"
-    subtitle: "Solo C#/.NET developer: practical tools for Microsoft 365 Business and small-business ops, built with AI in the loop so more actually ships."
+    subtitle: "Solo C#/.NET developer"
+    content: "Practical tools for Microsoft 365 Business and small-business ops, built with AI in the loop so more actually ships."
     image: "/images/profile.png"
     button:
       enable: true
