@@ -16,25 +16,25 @@ Paste into `hugo.yml` (`title` and `params`). The `/sync-identity` skill does th
 
 **Document title** (also used as the HTML `<title>` prefix):
 
-```
+```text
 Mark Heydon - Software Engineer
 ```
 
 **Hero subtitle:**
 
-```
+```text
 C#/.NET developer. Open-source tools for Microsoft 365 and small-business workflows.
 ```
 
 **Meta description** (search snippet):
 
-```
+```text
 Software engineer building and maintaining open-source tools for Microsoft 365 and small-business workflows. C#, .NET, Blazor, PHP, and Azure.
 ```
 
 **About** (two paragraphs for `params.about.content`):
 
-```
+```text
 I'm a software engineer with a BSc in Software Engineering from the Open University and decades of professional development experience.
 
 A significant part of my work is open source: products and libraries I design, ship, and keep maintained. They exist because the problems are real — running a fleet of GitHub repositories, importing work into Microsoft Planner, talking to FreeAgent from .NET, logging WordPress CLI jobs properly. Microsoft 365 is a domain I still build in, not a consultancy offering on this site.
@@ -42,7 +42,7 @@ A significant part of my work is open source: products and libraries I design, s
 
 **Skills title:**
 
-```
+```text
 Tools and platforms I use to build and maintain that work:
 ```
 
@@ -63,7 +63,7 @@ Tools and platforms I use to build and maintain that work:
 
 **Contact line** (`params.contact.content`):
 
-```
+```text
 If you want to talk about a project or an open-source tool, email me.
 ```
 
@@ -117,23 +117,23 @@ It helps me continue building, maintaining, and improving the projects tracked o
 
 Sidebar field. Max 160 characters.
 
-```
+```text
 Software engineer (C#/.NET, PHP/WordPress). Open-source tools for Microsoft 365 and small-business workflows.
 ```
 
 ## GitHub Sponsors
 
-Paste into https://github.com/sponsors/markheydon (short + full).
+Paste into <https://github.com/sponsors/markheydon> (short + full).
 
 **Short description:**
 
-```
+```text
 Software engineer (BSc Software Engineering, Open University) with decades of development experience. I design, build, and maintain open-source tools used in real small-business and Microsoft 365 workflows.
 ```
 
 **Full description:**
 
-```
+```text
 I'm a software engineer with decades of professional development experience and a BSc in Software Engineering from the Open University.
 
 A significant part of my work is open source: products and libraries I design, ship, and keep maintained. They exist because the problems are real: running a fleet of GitHub repositories, importing work into Microsoft Planner, talking to FreeAgent from .NET, logging WordPress CLI jobs properly.
@@ -147,13 +147,13 @@ Sponsorship funds hosting, CI, and ongoing maintenance of those public tools so 
 
 **Headline:**
 
-```
+```text
 Software Engineer | C#/.NET, Microsoft 365, open source
 ```
 
 **About:**
 
-```
+```text
 Software engineer based in Manchester. BSc Software Engineering (Open University), decades of professional development.
 
 I design, ship, and maintain open-source tools for real Microsoft 365 and small-business workflows — multi-repo GitHub work, Planner imports, FreeAgent from .NET, WordPress CLI logging, and related .NET/Blazor apps.
@@ -163,7 +163,7 @@ Public work: https://markheydon.me.uk/ and https://github.com/markheydon
 I also run MHCG LTD (https://markheydon.co.uk/), which is a separate company offering.
 ```
 
-**Option B:** if LinkedIn stays the MHCG sales page, leave the consultancy headline and add one line that engineering work lives at https://markheydon.me.uk/
+**Option B:** if LinkedIn stays the MHCG sales page, leave the consultancy headline and add one line that engineering work lives at <https://markheydon.me.uk/>
 
 ## Allowed tags
 
