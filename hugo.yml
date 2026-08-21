@@ -108,6 +108,39 @@ params:
         - "Aspire"
         - "Dataverse"
 
+  experience:
+    enable: true
+    items:
+      - company: "MHCG LTD"
+        companyUrl: "https://markheydon.co.uk"
+        jobs:
+          - name: "Software Engineer"
+            date: "Apr 2009 - Present"
+            content: |
+              I build practical tools for smaller businesses' day-to-day operations, with a focus on Microsoft 365 Business as a domain to build in. Applications, automation, and integrations (Power Platform and Dataverse where they fit), alongside C#/.NET and related work.
+
+              - Design and build business applications and integrations around Microsoft 365 Business
+              - Automate operations with Power Platform, Dataverse, and custom .NET where needed
+              - Maintain public open-source tools alongside that work ([GitHub](https://github.com/markheydon))
+            featuredLink:
+              enable: true
+              name: "View projects"
+              url: "/projects/"
+      - company: "Ashtead Plant Hire Co Ltd"
+        jobs:
+          - name: "Development Manager"
+            date: "Sep 2002 - Apr 2009"
+            content: "Responsible for a small team of developers coding in classic ASP and ASP.NET/C#, working primarily on the company-wide intranet. Integration with a legacy Unix-based POS system was a major part of the role."
+
+  education:
+    enable: true
+    items:
+      - title: "Bachelor's Degree, Computing and IT"
+        school:
+          name: "The Open University"
+          url: "https://www.open.ac.uk/"
+        date: "2009 - 2015"
+
   contact:
     enable: true
     content: "If you want to talk about a project or an open-source tool, email me."

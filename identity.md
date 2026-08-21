@@ -76,6 +76,11 @@ If you want to talk about a project or an open-source tool, email me.
 
 Email stays `hello@markheydon.co.uk`. The globe icon to markheydon.co.uk is intentional (company site).
 
+**Experience and Education** (one-off in `hugo.yml` only; not synced by `/sync-identity`):
+
+- **Experience:** MHCG LTD (Software Engineer, Apr 2009 - Present) and Ashtead Plant Hire Co Ltd (Development Manager, Sep 2002 - Apr 2009). Developer voice only on this site; no consultancy pitch.
+- **Education:** The Open University, Bachelor's Degree in Computing and IT (2009 - 2015). About copy may still say "Software Engineering degree"; LinkedIn credential is Computing and IT.
+
 ## GitHub profile README
 
 Paste into `markheydon/markheydon` `README.md`.
