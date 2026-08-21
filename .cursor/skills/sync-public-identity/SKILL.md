@@ -15,7 +15,7 @@ Read [identity.md](../../../identity.md) at the repo root. That file is the sour
 | Surface | MHCG LTD / consultancy / Care Plans |
 |--------|-------------------------------------|
 | This repo (`hugo.yml`, `content/**`, site about/hero) | **Out of scope.** Developer / open-source message only. Globe link to `.co.uk` is intentional. |
-| LinkedIn block in `identity.md` | **Allowed.** Shared audience: keep MHCG framed as Microsoft 365 Business **solutions** and **consultancy** for smaller businesses (not technical support / helpdesk). Report the paste block as written. |
+| LinkedIn block in `identity.md` (headline, About, Experience) | **Allowed.** Shared audience: keep MHCG framed as Microsoft 365 Business **solutions** and **consultancy** for smaller businesses (not technical support / helpdesk). Report the paste blocks as written. |
 | GitHub README, bio, Sponsors | Developer / open-source / Sponsors only unless `identity.md` explicitly includes MHCG there. |
 
 When scanning or rewriting in-repo copy: strip accidental MHCG sales language from the **site**. Do **not** strip or “correct away” the LinkedIn MHCG paragraph in `identity.md`.
@@ -34,13 +34,13 @@ When scanning or rewriting in-repo copy: strip accidental MHCG sales language fr
 
 4. **Tags**: Apply only the Allowed tags list from identity.md to `content/blog/**` and `content/projects/**`. Do not invent tags. Do not fill `categories`. Refresh `.frontmatter/database/taxonomyDb.json` to match real tags.
 
-5. **Report paste-only surfaces**: Quote the GitHub README, GitHub bio, Sponsors, and LinkedIn blocks from identity.md **verbatim** (including the MHCG LTD closer on LinkedIn). Do not push other repos or change GitHub/LinkedIn/Sponsors via API. Remind the user that LinkedIn may mention MHCG; this profile site must not. If those blocks still contain em dashes, fix them in `identity.md` first, then report the cleaned text.
+5. **Report paste-only surfaces**: Quote the GitHub README, GitHub bio, Sponsors, and LinkedIn blocks from identity.md **verbatim** (headline, About, Experience, including the MHCG LTD solutions/consultancy framing). Do not push other repos or change GitHub/LinkedIn/Sponsors via API. Remind the user that LinkedIn may mention MHCG; this profile site must not. If those blocks still contain em dashes, fix them in `identity.md` first, then report the cleaned text.
 
 ## Done when
 
 - `hugo.yml` homepage strings match identity.md Site section.
 - No leftover consultant / Care Plan identity on this site (except the company URL).
-- LinkedIn paste block still includes the MHCG LTD solutions/consultancy line from identity.md when reporting.
+- LinkedIn paste blocks (About + Experience) still include the MHCG LTD solutions/consultancy framing from identity.md when reporting, without Care Plan / helpdesk lead-ins.
 - No em dashes in `identity.md` public copy or synced `hugo.yml` strings.
 - Tags are from the allowed list.
 - The user has the paste blocks for platforms this repo does not own.

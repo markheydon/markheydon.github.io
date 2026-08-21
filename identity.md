@@ -2,7 +2,7 @@
 
 This file is the canonical copy for **developer-facing** public surfaces. MHCG LTD consultancy / Care Plan sales copy lives on [markheydon.co.uk](https://markheydon.co.uk/) and must not appear on this profile site. Exception: the **LinkedIn** paste block below may name MHCG LTD (solutions and consultancy, not technical support), because LinkedIn has a shared audience.
 
-**When the message changes:** edit this file first, then run `/sync-identity` (skill: `sync-public-identity`). The agent updates `hugo.yml` and in-repo content. Human still pastes GitHub, Sponsors, and LinkedIn content.
+**When the message changes:** edit this file first, then run `/sync-identity` (skill: `sync-public-identity`). The agent updates `hugo.yml` and in-repo content. Human still pastes GitHub, Sponsors, and LinkedIn (headline, About, Experience).
 
 Do not put care-plan or consultant-for-hire copy in the Site / GitHub / Sponsors sections of this file.
 
@@ -154,7 +154,7 @@ LinkedIn is a **shared** audience (existing MHCG customers and people checking e
 
 **MHCG LTD on LinkedIn (allowed here only):** Microsoft 365 Business **solutions** and **consultancy** for smaller businesses that use those technologies to run their day-to-day operations. Developer work overlaps where solutions need building. Do **not** describe MHCG as technical support, service desk/help desk, or break/fix IT.
 
-**Option A (recommended when LinkedIn carries both engineer and company story):** paste headline + About. Company on LinkedIn can stay MHCG LTD; the About should not make MHCG sound like an afterthought.
+**Option A (recommended when LinkedIn carries both engineer and company story):** paste headline, About, and Experience. Company on LinkedIn can stay MHCG LTD; About and Experience should not make MHCG sound like an afterthought or like technical support.
 
 **Headline:**
 
@@ -174,7 +174,36 @@ Public engineering work: https://markheydon.me.uk/ and https://github.com/markhe
 I also have MHCG LTD (https://markheydon.co.uk/), where I provide Microsoft 365 Business solutions and consultancy for smaller businesses, helping them use those technologies to run their operations, including development where it overlaps.
 ```
 
-**Option B:** if LinkedIn stays primarily the MHCG sales page, keep a consultancy-led headline/About aligned with markheydon.co.uk, and add one line that public engineering / open-source work lives at <https://markheydon.me.uk/>
+**Experience (MHCG LTD, current):** keep company MHCG LTD, self-employed, Apr 2009–Present, Manchester Area / Remote. Replace title and description. Do not lead with Care Plans, managed services, helpdesk, or MSP language.
+
+**Title:**
+
+```text
+Software Engineer
+```
+
+**Description:**
+
+```text
+I build practical tools and Microsoft 365 Business solutions for smaller businesses' day-to-day operations, including development where it overlaps with consultancy.
+
+Through MHCG LTD I help smaller businesses use Microsoft 365 Business technologies to run their operations: solutions and consultancy, not a helpdesk. That means applications, automation, and integrations (Power Platform and Dataverse where they fit), alongside C#/.NET and related work.
+
+- Design and build business applications and integrations around Microsoft 365 Business
+- Automate day-to-day operations with Power Platform, Dataverse, and custom .NET where needed
+- Provide Microsoft 365 Business solutions and consultancy for smaller businesses
+- Maintain public open-source tools used alongside that work (https://markheydon.me.uk/ and https://github.com/markheydon)
+```
+
+**Experience (Ashtead Plant Hire Co Ltd, past):** optional cleanup only. Keep title Development Manager, dates Sep 2002–Apr 2009, Warrington.
+
+**Description:**
+
+```text
+Responsible for a small team of developers coding in classic ASP and ASP.NET/C#, working primarily on the company-wide intranet. Integration with a legacy Unix-based POS system was a major part of the role.
+```
+
+**Option B:** if LinkedIn stays primarily the MHCG sales page, keep a consultancy-led headline/About/Experience aligned with markheydon.co.uk, and add one line that public engineering / open-source work lives at <https://markheydon.me.uk/>
 
 ## Allowed tags
 
