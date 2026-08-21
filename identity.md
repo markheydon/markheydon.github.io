@@ -1,14 +1,14 @@
 # Public identity (source of truth)
 
-This file is the canonical copy for **developer-facing** public surfaces. MHCG LTD consultancy copy lives on [markheydon.co.uk](https://markheydon.co.uk/) and is out of scope here.
+This file is the canonical copy for **developer-facing** public surfaces. MHCG LTD consultancy / Care Plan sales copy lives on [markheydon.co.uk](https://markheydon.co.uk/) and must not appear on this profile site. Exception: the **LinkedIn** paste block below may name MHCG LTD (solutions and consultancy — not technical support), because LinkedIn has a shared audience.
 
-**When the message changes:** edit this file first, then run `/sync-identity` (skill: `sync-public-identity`). The agent updates `hugo.yml` and in-repo content. You still paste GitHub, Sponsors, and LinkedIn yourself from the blocks below.
+**When the message changes:** edit this file first, then run `/sync-identity` (skill: `sync-public-identity`). The agent updates `hugo.yml` and in-repo content. Human still pastes GitHub, Sponsors, and LinkedIn content.
 
-Do not put care-plan or consultant-for-hire copy in this file.
+Do not put care-plan or consultant-for-hire copy in the Site / GitHub / Sponsors sections of this file.
 
 ## Canonical voice
 
-Software engineer with a BSc in Software Engineering from the Open University and decades of professional development experience. A significant part of the work is open source: products and libraries designed, shipped, and kept maintained because the problems are real — running a fleet of GitHub repositories, importing work into Microsoft Planner, talking to FreeAgent from .NET, logging WordPress CLI jobs properly. Microsoft 365 is a domain to build in, not a consultancy offering on this site.
+Software engineer, self-taught from an early age that formalised later by studying for a degree in Software Engineering with the Open University. Decades of professional development and commercial experience. Builds practical tools for smaller businesses' day-to-day operations, with a particular focus on Microsoft 365 Business technologies. Passionate about open source work: designed, shipped, and kept maintained because the problems are real. Sponsorship and paid work help fund it; open source alone is not expected to pay the bills. As a solo developer, uses AI coding tools openly, not instead of knowing how to build, but so more of the right work actually ships. Main stack today is C#/.NET and PowerShell, with WordPress still in the mix; keeps current with things like .NET Aspire. Microsoft 365 is a domain to build in, not a consultancy offering on this site. Tone: plain, precise, slightly dry; opinionated without hype or buzzwords.
 
 ## Site
 
@@ -23,21 +23,21 @@ Mark Heydon - Software Engineer
 **Hero subtitle:**
 
 ```text
-C#/.NET developer. Open-source tools for Microsoft 365 and small-business workflows.
+Solo C#/.NET developer: practical tools for Microsoft 365 Business and small-business ops, built with AI in the loop so more actually ships.
 ```
 
 **Meta description** (search snippet):
 
 ```text
-Software engineer building and maintaining open-source tools for Microsoft 365 and small-business workflows. C#, .NET, Blazor, PHP, and Azure.
+Solo software engineer building practical tools for Microsoft 365 Business and small-business day-to-day work. C#/.NET, open source, AI in the loop.
 ```
 
 **About** (two paragraphs for `params.about.content`):
 
 ```text
-I'm a software engineer with a BSc in Software Engineering from the Open University and decades of professional development experience.
+I'm a software engineer, self-taught from an early age, who later formalised that with a Software Engineering degree from the Open University. Decades of professional development and commercial experience.
 
-A significant part of my work is open source: products and libraries I design, ship, and keep maintained. They exist because the problems are real — running a fleet of GitHub repositories, importing work into Microsoft Planner, talking to FreeAgent from .NET, logging WordPress CLI jobs properly. Microsoft 365 is a domain I still build in, not a consultancy offering on this site.
+I build practical tools for smaller businesses' day-to-day operations, with a particular focus on Microsoft 365 Business technologies. I'm passionate about open source work: design it, ship it, keep it maintained, because the problems are real. I maintain a fleet of GitHub repositories: importing work into Microsoft Planner, talking to FreeAgent from .NET, logging WordPress CLI jobs properly. Sponsorship and paid work help fund that, although I'm not pretending open source alone pays the bills. As a solo developer I use AI coding tools openly: not instead of knowing how to build, but so more of the right work actually ships. These days that's mainly C#/.NET and PowerShell, with WordPress still in the mix. I keep current with things like .NET Aspire.
 ```
 
 **Skills title:**
@@ -50,6 +50,7 @@ Tools and platforms I use to build and maintain that work:
 
 - C#
 - .NET
+- PowerShell
 - Blazor
 - Microsoft Graph
 - Azure
@@ -76,7 +77,7 @@ Paste into `markheydon/markheydon` `README.md`.
 ```markdown
 ## Hi, I'm Mark 👋
 
-Software engineer (C#/.NET, plus the odd bit of PHP/WordPress). I build and maintain open-source tools for real Microsoft 365 and small-business workflows.
+Solo C#/.NET developer. I build practical tools for Microsoft 365 Business and small-business day-to-day ops. Passionate about open source: I design, ship, and keep a lot of that work maintained.
 
 ## 🔧 What I'm working on
 
@@ -91,11 +92,11 @@ This includes:
 
 ## 🤖 How I work
 
-My development workflow is supported by AI-driven automation, helping keep projects structured and up to date:
+I'm a solo developer. I use AI coding tools openly, not instead of knowing how to build, but because one person can't do everything alone, and they help more of the right work actually ship.
+
+My automation and workflow setup lives here:
 
 👉 https://github.com/markheydon/github-workflows
-
-This is a practical, real-world approach to using AI to assist software delivery -- not just code generation.
 
 ## 🚀 Key projects
 
@@ -110,7 +111,7 @@ If you find my work useful, you can support it via GitHub Sponsors:
 
 👉 https://github.com/sponsors/markheydon
 
-It helps me continue building, maintaining, and improving the projects tracked on this board.
+It helps fund hosting, CI, and ongoing maintenance of the public tools on this board. Open source alone doesn't pay the bills, but sponsorship and paid work help keep that work production-quality.
 ```
 
 ## GitHub bio
@@ -118,7 +119,7 @@ It helps me continue building, maintaining, and improving the projects tracked o
 Sidebar field. Max 160 characters.
 
 ```text
-Software engineer (C#/.NET, PHP/WordPress). Open-source tools for Microsoft 365 and small-business workflows.
+Solo C#/.NET. Practical tools for Microsoft 365 Business & small-business ops. Open source; AI in the loop so more ships.
 ```
 
 ## GitHub Sponsors
@@ -128,22 +129,26 @@ Paste into <https://github.com/sponsors/markheydon> (short + full).
 **Short description:**
 
 ```text
-Software engineer (BSc Software Engineering, Open University) with decades of development experience. I design, build, and maintain open-source tools used in real small-business and Microsoft 365 workflows.
+Software engineer, self-taught then Open University Software Engineering degree, decades of commercial experience. Open-source tools for Microsoft 365 Business and small-business day-to-day work.
 ```
 
 **Full description:**
 
 ```text
-I'm a software engineer with decades of professional development experience and a BSc in Software Engineering from the Open University.
+I'm a software engineer, self-taught from an early age, who later formalised that with a Software Engineering degree from the Open University. Decades of professional development and commercial experience.
 
-A significant part of my work is open source: products and libraries I design, ship, and keep maintained. They exist because the problems are real: running a fleet of GitHub repositories, importing work into Microsoft Planner, talking to FreeAgent from .NET, logging WordPress CLI jobs properly.
+I build practical tools for smaller businesses' day-to-day operations, with a particular focus on Microsoft 365 Business technologies. I'm passionate about open source work: products and libraries I design, ship, and keep maintained because the problems are real. Multi-repo GitHub work: Planner imports, FreeAgent from .NET, WordPress CLI logging, and related .NET work.
 
-Sponsorship funds hosting, CI, and ongoing maintenance of those public tools so they stay production-quality rather than going stale.
+As a solo developer I use AI coding tools openly, not instead of knowing how to build, but so more of that work actually ships. Sponsorship funds hosting, CI, and ongoing maintenance so those public tools stay production-quality rather than going stale. Open source alone doesn't pay the bills; sponsorship and paid work help keep it going.
 ```
 
 ## LinkedIn
 
-**Option A (recommended if LinkedIn is personal / developer-facing):** paste headline + About. Keep MHCG LTD as the current company, not as the identity.
+LinkedIn is a **shared** audience (existing MHCG customers and people checking engineering / open-source work). It may name MHCG LTD. This profile site (`markheydon.me.uk`) must not.
+
+**MHCG LTD on LinkedIn (allowed here only):** Microsoft 365 Business **solutions** and **consultancy** for smaller businesses that use those technologies to run their day-to-day operations. Developer work overlaps where solutions need building. Do **not** describe MHCG as technical support, service desk/help desk, or break/fix IT.
+
+**Option A (recommended when LinkedIn carries both engineer and company story):** paste headline + About. Company on LinkedIn can stay MHCG LTD; the About should not make MHCG sound like an afterthought.
 
 **Headline:**
 
@@ -154,16 +159,16 @@ Software Engineer | C#/.NET, Microsoft 365, open source
 **About:**
 
 ```text
-Software engineer based in Manchester. BSc Software Engineering (Open University), decades of professional development.
+Software engineer based in Manchester. Self-taught from an early age; later formalised with a Software Engineering degree from the Open University. Decades of professional development and commercial experience.
 
-I design, ship, and maintain open-source tools for real Microsoft 365 and small-business workflows — multi-repo GitHub work, Planner imports, FreeAgent from .NET, WordPress CLI logging, and related .NET/Blazor apps.
+I build practical tools for smaller businesses' day-to-day operations, with a particular focus on Microsoft 365 Business technologies. Passionate about open source: design, ship, maintain. Multi-repo GitHub tooling, Planner imports, FreeAgent from .NET, WordPress still in the mix, related .NET/Blazor apps. As a solo developer I use AI coding tools openly, not instead of knowing how to build, but so more of the right work actually ships. Main stack today: C#/.NET and PowerShell; I keep current with things like .NET Aspire.
 
-Public work: https://markheydon.me.uk/ and https://github.com/markheydon
+Public engineering work: https://markheydon.me.uk/ and https://github.com/markheydon
 
-I also run MHCG LTD (https://markheydon.co.uk/), which is a separate company offering.
+I also have MHCG LTD (https://markheydon.co.uk/), where I provide Microsoft 365 Business solutions and consultancy for smaller businesses, helping them use those technologies to run their operations, including development where it overlaps.
 ```
 
-**Option B:** if LinkedIn stays the MHCG sales page, leave the consultancy headline and add one line that engineering work lives at <https://markheydon.me.uk/>
+**Option B:** if LinkedIn stays primarily the MHCG sales page, keep a consultancy-led headline/About aligned with markheydon.co.uk, and add one line that public engineering / open-source work lives at <https://markheydon.me.uk/>
 
 ## Allowed tags
 
@@ -185,6 +190,7 @@ Hugo default taxonomy `tags` only. Exact strings. Do not invent tags. Do not use
 - `Microsoft 365`
 - `Microsoft Graph`
 - `PHP`
+- `PowerShell`
 - `WordPress`
 
 Do not use: Consulting, Personal Projects, GitHub Pages, IaC, API, WP-CLI, Consultancy.
