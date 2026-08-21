@@ -39,35 +39,35 @@ Source of truth for which GitHub repos may appear on [markheydon.me.uk](https://
 - visibility: public
 - project: content/projects/solo-dev-board.md
 - blog: has-post (content/blog/solodevboard-v1.md)
-- image: ok (`static/images/projects/solo-dev-board.png`)
+- image: ok (`static/images/projects/solo-dev-board.png`; real capture from repo `website/static/images/dashboard/home.png`)
 
 ### markheydon/import-to-planner
 - status: showcase
 - visibility: public
 - project: content/projects/import-to-planner.md
 - blog: has-post (content/blog/import-to-planner.md)
-- image: ok (`static/images/projects/import-to-planner.png`)
+- image: ok (`static/images/projects/import-to-planner.png`; real capture of https://docs.importplanner.app/)
 
 ### markheydon/freeagent-dotnet
 - status: showcase
 - visibility: public
 - project: content/projects/freeagent-dotnet.md
 - blog: has-post (content/blog/freeagent-dotnet-client.md)
-- image: ok (`static/images/projects/freeagent-dotnet.png`)
+- image: ok (`static/images/projects/freeagent-dotnet.png`; real capture of GitHub README; library has no product UI)
 
 ### markheydon/monolog-wp-cli
 - status: showcase
 - visibility: public
 - project: content/projects/monolog-wp-cli.md
 - blog: has-post (content/blog/monolog-wp-cli-monolog-3.md)
-- image: ok (`static/images/projects/monolog-wp-cli.png`)
+- image: ok (`static/images/projects/monolog-wp-cli.png`; real capture of https://markheydon.me.uk/monolog-wp-cli/)
 
 ### markheydon/meaty-times
 - status: showcase
 - visibility: public
 - project: content/projects/meaty-times.md
 - blog: has-post (content/blog/meaty-times-roast-calculator.md)
-- image: ok (`static/images/projects/meaty-times.png`)
+- image: ok (`static/images/projects/meaty-times.png`; real capture of live Roast Calculator app)
 
 ### markheydon/national-lottery-generator
 - status: showcase
@@ -95,14 +95,14 @@ Source of truth for which GitHub repos may appear on [markheydon.me.uk](https://
 - visibility: public
 - project: (missing — gap)
 - blog: has-post (content/blog/unmessy-clean-architecture.md)
-- image: ok (`static/images/projects/unmessy-clean-example.png`; blog reuses same path)
+- image: ok (`static/images/projects/unmessy-clean-example.png`; real capture of GitHub README; blog reuses same path)
 
 ### markheydon/turpinverse
 - status: showcase
 - visibility: public
 - project: (missing — gap)
 - blog: has-post (content/blog/turpinverse.md)
-- image: ok (`static/images/projects/turpinverse.png`; blog reuses same path)
+- image: ok (`static/images/projects/turpinverse.png`; real capture of https://turpinverse.uk/; blog reuses same path)
 
 ---
 
@@ -156,4 +156,4 @@ Run `bash .cursor/skills/sync-github-content/scripts/audit-project-images.sh` du
 
 All showcase project/blog frontmatter paths currently resolve under `static/images/projects/`. If the audit reports `MISS`, do not use AI-generated UI art. Capture a real screenshot or omit `image:` until you have one.
 
-Some existing PNGs may still be inaccurate mock-ups from earlier sessions. Replace those with real captures when you proofread; the skill must never add new invented screenshots.
+Replaced earlier AI mock-ups for solo-dev-board, meaty-times, monolog-wp-cli, import-to-planner, freeagent-dotnet, turpinverse, and unmessy-clean-example with real captures (repo assets or live public URLs). The skill must never add new invented screenshots.
