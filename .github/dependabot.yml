@@ -14,7 +14,10 @@ updates:
       - "markheydon"
     groups:
       github-actions:
+        patterns:
+          - "*"
         update-types:
+          - "major"
           - "minor"
           - "patch"
 
